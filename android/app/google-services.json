@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "364462129518",
+    "project_id": "flutter-author-app1-6dab5",
+    "storage_bucket": "flutter-author-app1-6dab5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364462129518:android:c07e8eafa4b17a0904817f",
+        "android_client_info": {
+          "package_name": "com.example. dubai_desert_safari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364462129518-k6cm1gal3hhfmrotd2n3kbsnepko6j31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaxLiW07NGAd0PzivGjIqfB_ohha1X__4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364462129518-k6cm1gal3hhfmrotd2n3kbsnepko6j31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
