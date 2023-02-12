@@ -60,7 +60,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Pickup and Drop off from your location",
+                              "Go on a journey by car along Maliha Road in the desert.",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -72,19 +72,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Drive Through the Desert along Maliha Road",
-                              style: TextStyle(fontSize: 15),
-                            )
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Icon(
-                              Icons.arrow_forward_ios_outlined,
-                              size: 17,
-                            ),
-                            Text(
-                              "25 to 35 mins Red Sand  Dune Bashing",
+                              "Pick and Drop from your location",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -108,6 +96,30 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
+                              "A 25 to 35 minute dune-bashing adventure on the Red Sand.",
+                              style: TextStyle(fontSize: 15),
+                            )
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.arrow_forward_ios_outlined,
+                              size: 17,
+                            ),
+                            Text(
+                              "Camel Riding",
+                              style: TextStyle(fontSize: 15),
+                            )
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.arrow_forward_ios_outlined,
+                              size: 17,
+                            ),
+                            Text(
                               "Sun Set Photography",
                               style: TextStyle(fontSize: 15),
                             )
@@ -120,7 +132,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Camel Ride",
+                              "Hubbly Bubblee (Sheesha)",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -144,7 +156,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Hubbly Bubblee ( Sheesha),",
+                              "Tea, Coffee, Water,Unlimited Softdrinks.",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -168,7 +180,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Unlimited Softdrinks, Tea, Coffee, Water.",
+                              "Belly Dance",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -192,7 +204,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Belly Dance",
+                              "Tanura Show",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -216,7 +228,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Tanura Show",
+                              "BBQ & Buffet Dinner(Veg and non-veg both are available)",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -229,18 +241,6 @@ class _EveningDetailState extends State<EveningDetail> {
                             ),
                             Text(
                               "Purtggol Show",
-                              style: TextStyle(fontSize: 15),
-                            )
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Icon(
-                              Icons.arrow_forward_ios_outlined,
-                              size: 17,
-                            ),
-                            Text(
-                              "BBQ & Buffet Dinner(Veg & non-veg both available)",
                               style: TextStyle(fontSize: 14),
                             )
                           ],
@@ -259,7 +259,7 @@ class _EveningDetailState extends State<EveningDetail> {
                       width: 450,
                       child: Center(
                         child: Text(
-                          "Package Exlude",
+                          "Quad Bike",
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
@@ -283,7 +283,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Quad Bike",
+                              "Package Exlude",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -295,19 +295,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Long Camel Ride",
-                              style: TextStyle(fontSize: 15),
-                            )
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Icon(
-                              Icons.arrow_forward_ios_outlined,
-                              size: 17,
-                            ),
-                            Text(
-                              "Horse Ride",
+                              "Long Camel Riding",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -331,7 +319,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               size: 17,
                             ),
                             Text(
-                              "Vip Sitting Area",
+                              "Horse Riding",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -344,6 +332,18 @@ class _EveningDetailState extends State<EveningDetail> {
                             ),
                             Text(
                               "Sheesha on Table",
+                              style: TextStyle(fontSize: 15),
+                            )
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.arrow_forward_ios_outlined,
+                              size: 17,
+                            ),
+                            Text(
+                              "Vip Sitting Area",
                               style: TextStyle(fontSize: 15),
                             )
                           ],
@@ -450,7 +450,7 @@ class _EveningDetailState extends State<EveningDetail> {
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        "Premium Evening Desert Safari Dubai is perfect for people who are crazy to do the dune bashing , sandbording and camel riding and many more activities and would like to enjoy a peaceful yet exciting dining under the stars. Arrive at the Arabian ambiance a traditional Bedouin campsite, where a traditional Arabian welcome awaits you.Evening Desert Safari Dubai in lahbab included an exciting camel ride, Dress yourself in the traditional Arabic dress, Henna painting (exclusive Arabic designs) on hands or feet and enjoy the freshly made Arabic sweets, savoring sips of the delicious Arabian brew – Coffee or simply enjoy the aromatic shisha (the famous Arabic water pipe), watching a Traditional Belly show and Tanoura show.Finally when all the activity done a delicious BBQ dinner cooked on a site is waiting for you then and you have the choice between a variety of appetizers, grilled specialties, Salads, Selection of fresh vegetables, specialty dishes for the vegetarians and not forgetting Traditional Arabic and Exotic Fresh Fruits to sweeten your mouth and also the climax of the evening desert safari under the star-lit sky by graceful show performance set to the rhythm of traditional Arabian music is the added Eastern entertainment.Evening Desert Safari Dubai at explore the red Dunes of Al Lahbab Dubai desert safari with 45 Minutes Dune drive by Land Cruiser, Sand Boarding, Sunset, Camel Ride and entertaining shows onbeautiful Arabian Bedouin camp.",
+                        "The Premium Evening Desert Safari in Dubai is ideal for those who wish to do dune bashing, sandboarding, and camel riding, as well as relish a tranquil yet stimulating dinner under the stars. Once you reach the Bedouin campsite with an Arabian atmosphere, you will be welcomed in a conventional Arabian manner. The safari in Lahbab also involves an exciting camel ride, and you can dress in the traditional Arabic clothing. You can also have henna painting (distinctive Arabic designs) on your hands or feet and savor the freshly prepared Arabian delicacies, relish the flavorful Arabian brew – coffee or just enjoy the aromatic shisha (the renowned Arabic water pipe), watch a traditional Belly show and Tanoura show. Finally, when all the activities are done, a delicious barbeque dinner cooked on the spot is available for you, offering a variety of starters, grilled specialties, salads, selection of fresh vegetables, specialty vegetarian dishes, and, of course, traditional treats.",
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             height: 2,
@@ -577,20 +577,21 @@ class _EveningDetailState extends State<EveningDetail> {
                             Row(
                               children: [
                                 Icon(Icons.grain),
-                                Text("Pickup and Drop off from your location")
+                                Text("Pick and Drop  from your location")
                               ],
                             ),
                             Row(
                               children: [
                                 Icon(Icons.grain),
                                 Text(
-                                    "Drive Through the Desert along Maliha Road")
+                                    "Go on a journey by car along Maliha Road in the desert.")
                               ],
                             ),
                             Row(
                               children: [
                                 Icon(Icons.grain),
-                                Text("25 to 35 mins Red Sand  Dune Bashing")
+                                Text(
+                                    "A 25 to 35 minute dune-bashing adventure on the Red Sand.")
                               ],
                             ),
                             Row(
@@ -611,7 +612,7 @@ class _EveningDetailState extends State<EveningDetail> {
                             Row(
                               children: [
                                 Icon(Icons.grain),
-                                Text("Arabic Coffee, and Freash Dates")
+                                Text("Arabic Coffee,and Fresh Dates")
                               ],
                             ),
                             Row(
@@ -629,8 +630,7 @@ class _EveningDetailState extends State<EveningDetail> {
                             Row(
                               children: [
                                 Icon(Icons.grain),
-                                Text(
-                                    "Unlimited Softdrinks, Tea, Coffee, Water.")
+                                Text("Tea, Coffee, Water,Unlimited Softdrinks.")
                               ],
                             ),
                             Row(
@@ -664,7 +664,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               children: [
                                 Icon(Icons.grain),
                                 Text(
-                                    "BBQ & Buffet Dinner (Veg & non-veg both available)")
+                                    "BBQ & Buffet Dinner (Veg and non-veg both are available)")
                               ],
                             ),
                           ],
@@ -704,16 +704,13 @@ class _EveningDetailState extends State<EveningDetail> {
                             Row(
                               children: [
                                 Icon(Icons.grain),
-                                Text("Long Camel Ride")
+                                Text("Long Camel Riding")
                               ],
-                            ),
-                            Row(
-                              children: [Icon(Icons.grain), Text("Horse Ride")],
                             ),
                             Row(
                               children: [
                                 Icon(Icons.grain),
-                                Text("Falcon Photos")
+                                Text("Horse Riding")
                               ],
                             ),
                             Row(
@@ -725,7 +722,13 @@ class _EveningDetailState extends State<EveningDetail> {
                             Row(
                               children: [
                                 Icon(Icons.grain),
-                                Text("Sheesha on Table")
+                                Text("Falcon Photos")
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.grain),
+                                Text("Sheesha on a Table")
                               ],
                             ),
                           ],
@@ -810,7 +813,7 @@ class _EveningDetailState extends State<EveningDetail> {
                       ),
                       Container(
                         child: Text(
-                          "Premium Evening Desert Safari Dubai is perfect for people who are crazy to do the dune bashing , sandbording and camel riding and many more activities and would like to enjoy a peaceful yet exciting dining under the stars. Arrive at the Arabian ambiance a traditional Bedouin campsite, where a traditional Arabian welcome awaits you.Evening Desert Safari Dubai in lahbab included an exciting camel ride, Dress yourself in the traditional Arabic dress, Henna painting (exclusive Arabic designs) on hands or feet and enjoy the freshly made Arabic sweets, savoring sips of the delicious Arabian brew – Coffee or simply enjoy the aromatic shisha (the famous Arabic water pipe), watching a Traditional Belly show and Tanoura show.Finally when all the activity done a delicious BBQ dinner cooked on a site is waiting for you then and you have the choice between a variety of appetizers, grilled specialties, Salads, Selection of fresh vegetables, specialty dishes for the vegetarians and not forgetting Traditional Arabic and Exotic Fresh Fruits to sweeten your mouth and also the climax of the evening desert safari under the star-lit sky by graceful show performance set to the rhythm of traditional Arabian music is the added Eastern entertainment.Evening Desert Safari Dubai at explore the red Dunes of Al Lahbab Dubai desert safari with 45 Minutes Dune drive by Land Cruiser, Sand Boarding, Sunset, Camel Ride and entertaining shows onbeautiful Arabian Bedouin camp.",
+                          " The Premium Evening Desert Safari in Dubai is ideal for those who wish to do dune bashing, sandboarding, and camel riding, as well as relish a tranquil yet stimulating dinner under the stars. Once you reach the Bedouin campsite with an Arabian atmosphere, you will be welcomed in a conventional Arabian manner. The safari in Lahbab also involves an exciting camel ride, and you can dress in the traditional Arabic clothing. You can also have henna painting (distinctive Arabic designs) on your hands or feet and savor the freshly prepared Arabian delicacies, relish the flavorful Arabian brew – coffee or just enjoy the aromatic shisha (the renowned Arabic water pipe), watch a traditional Belly show and Tanoura show. Finally, when all the activities are done, a delicious barbeque dinner cooked on the spot is available for you, offering a variety of starters, grilled specialties, salads, selection of fresh vegetables, specialty vegetarian dishes, and, of course, traditional treats.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               height: 2,
@@ -950,19 +953,21 @@ class _EveningDetailState extends State<EveningDetail> {
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Pickup and Drop off from your location")
+                              Text("Pick and Drop from your location")
                             ],
                           ),
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Drive Through the Desert along Maliha Road")
+                              Text(
+                                  "Go on a journey by car along Maliha Road in the desert.")
                             ],
                           ),
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("25 to 35 mins Red Sand  Dune Bashing")
+                              Text(
+                                  "A 25 to 35 minute dune-bashing adventure on the Red Sand")
                             ],
                           ),
                           Row(
@@ -978,18 +983,18 @@ class _EveningDetailState extends State<EveningDetail> {
                             ],
                           ),
                           Row(
-                            children: [Icon(Icons.grain), Text("Camel Ride")],
+                            children: [Icon(Icons.grain), Text("Camel Riding")],
                           ),
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Arabic Coffee, and Freash Dates")
+                              Text("Arabic Coffee, and Fresh Dates")
                             ],
                           ),
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Hubbly Bubblee ( Sheesha)")
+                              Text("Hubbly Bubblee (Sheesha)")
                             ],
                           ),
                           Row(
@@ -1001,7 +1006,7 @@ class _EveningDetailState extends State<EveningDetail> {
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Unlimited Softdrinks, Tea, Coffee, Water.")
+                              Text("Tea, Coffee, Water,Unlimited Softdrinks.")
                             ],
                           ),
                           Row(
@@ -1011,10 +1016,10 @@ class _EveningDetailState extends State<EveningDetail> {
                             ],
                           ),
                           Row(
-                            children: [Icon(Icons.grain), Text("Belly Dance")],
+                            children: [Icon(Icons.grain), Text(" Fire Show")],
                           ),
                           Row(
-                            children: [Icon(Icons.grain), Text("Fire Show")],
+                            children: [Icon(Icons.grain), Text(" Belly Dance")],
                           ),
                           Row(
                             children: [Icon(Icons.grain), Text("Tanura Show")],
@@ -1029,7 +1034,7 @@ class _EveningDetailState extends State<EveningDetail> {
                             children: [
                               Icon(Icons.grain),
                               Text(
-                                  "BBQ & Buffet Dinner (Veg & non-veg both available)")
+                                  "BBQ & Buffet Dinner (Veg and non-veg both are available)")
                             ],
                           ),
                         ],
@@ -1069,11 +1074,11 @@ class _EveningDetailState extends State<EveningDetail> {
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Long Camel Ride")
+                              Text("Long Camel Riding")
                             ],
                           ),
                           Row(
-                            children: [Icon(Icons.grain), Text("Horse Ride")],
+                            children: [Icon(Icons.grain), Text("Horse Riding")],
                           ),
                           Row(
                             children: [
@@ -1090,7 +1095,7 @@ class _EveningDetailState extends State<EveningDetail> {
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Sheesha on Table")
+                              Text("Sheesha on a Table")
                             ],
                           ),
                         ],
@@ -1177,7 +1182,7 @@ class _EveningDetailState extends State<EveningDetail> {
                       padding: const EdgeInsets.symmetric(horizontal: 100),
                       child: Container(
                         child: Text(
-                          "Premium Evening Desert Safari Dubai is perfect for people who are crazy to do the dune bashing , sandbording and camel riding and many more activities and would like to enjoy a peaceful yet exciting dining under the stars. Arrive at the Arabian ambiance a traditional Bedouin campsite, where a traditional Arabian welcome awaits you.\n\nEvening Desert Safari Dubai in lahbab included an exciting camel ride, Dress yourself in the traditional Arabic dress, Henna painting (exclusive Arabic designs) on hands or feet and enjoy the freshly made Arabic sweets, savoring sips of the delicious Arabian brew – Coffee or simply enjoy the aromatic shisha (the famous Arabic water pipe), watching a Traditional Belly show and Tanoura show.\n\nFinally when all the activity done a delicious BBQ dinner cooked on a site is waiting for you then and you have the choice between a variety of appetizers, grilled specialties, Salads, Selection of fresh vegetables, specialty dishes for the vegetarians and not forgetting Traditional Arabic and Exotic Fresh Fruits to sweeten your mouth and also the climax of the evening desert safari under the star-lit sky by graceful show performance set to the rhythm of traditional Arabian music is the added Eastern entertainment.\n\nEvening Desert Safari Dubai at explore the red Dunes of Al Lahbab Dubai desert safari with 45 Minutes Dune drive by Land Cruiser, Sand Boarding, Sunset, Camel Ride and entertaining shows on\n\n beautiful Arabian Bedouin camp.",
+                          " The Premium Evening Desert Safari in Dubai is ideal for those who wish to do dune bashing, sandboarding, and camel riding, as well as relish a tranquil yet stimulating dinner under the stars. Once you reach the Bedouin campsite with an Arabian atmosphere, you will be welcomed in a conventional Arabian manner. The safari in Lahbab also involves an exciting camel ride, and you can dress in the traditional Arabic clothing. You can also have henna painting (distinctive Arabic designs) on your hands or feet and savor the freshly prepared Arabian delicacies, relish the flavorful Arabian brew – coffee or just enjoy the aromatic shisha (the renowned Arabic water pipe), watch a traditional Belly show and Tanoura show. Finally, when all the activities are done, a delicious barbeque dinner cooked on the spot is available for you, offering a variety of starters, grilled specialties, salads, selection of fresh vegetables, specialty vegetarian dishes, and, of course, traditional treats.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               height: 2,

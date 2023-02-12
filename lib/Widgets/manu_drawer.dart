@@ -89,7 +89,7 @@ class MenuDrawer extends StatelessWidget {
                 child: Align(
                   alignment: Alignment.bottomCenter,
                   child: Text(
-                    'Copyright @ 2021 | DBestech',
+                    'Copyright @ 2023 | JAM JUGGLERS',
                     style: TextStyle(color: Colors.white60, fontSize: 14),
                   ),
                 ),

@@ -45,11 +45,12 @@ class _HomePageState extends State<HomePage> {
       extendBodyBehindAppBar: true,
       appBar: screenSize.width < 800
           ? AppBar(
-              iconTheme: IconThemeData(color: Colors.white),
+              // iconTheme: IconThemeData(color: Colors.white),
               backgroundColor: Colors.transparent,
-              title: Image.asset(
-                "images/cropped-20220707_202854-300x87.png",
-              ))
+              // title: Image.asset(
+              //   // "images/cropped-20220707_202854-300x87.png",
+              // )
+            )
           : PreferredSize(
               preferredSize: Size(screenSize.width, 70),
               child: TopBarContent(_opacity),
@@ -101,13 +102,13 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   height: 10,
                 ),
-                FloatingActionButton(
-                  child: const Icon(Icons.call),
-                  backgroundColor: Colors.green.shade800,
-                  onPressed: () async {
-                    print(await canLaunchUrl(phoneNumber));
-                  },
-                ),
+                // FloatingActionButton(
+                //   child: const Icon(Icons.call),
+                //   backgroundColor: Colors.green.shade800,
+                //   onPressed: () async {
+                //     print(await canLaunchUrl(phoneNumber));
+                //   },
+                // ),
               ],
             ),
           ),

@@ -50,12 +50,12 @@ class _MainCarouselState extends State<MainCarousel> {
                         fit: BoxFit.cover,
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(6.0),
                         child: Text(
-                          "This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ. ",
+                          "This trip provides you with transport from your specified location and involves sand dune bashing, sand boarding, camel rides, belly dancing, Tanoura and a fire show. Additionally, you will be provided with both vegetarian and non-vegetarian dinner and a BBQ. ",
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              height: 3,
+                              height: 2,
                               fontSize: 15,
                               color: Color.fromARGB(255, 148, 141, 141)),
                         ),
@@ -111,7 +111,7 @@ class _MainCarouselState extends State<MainCarousel> {
                   child: Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 18),
+                        padding: const EdgeInsets.symmetric(vertical: 16),
                         child: Text(
                           "EVENING DESERT SAFARI + QUAD BIKE",
                           style: TextStyle(
@@ -122,18 +122,12 @@ class _MainCarouselState extends State<MainCarousel> {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          "This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Quad Bike Ride Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ. ",
+                          "This tour package offers a comprehensive experience, with pick-up and drop-off from your location, dune bashing, sand-boarding, quad biking, camel rides, belly dancing, Tanoura, and a fire show. Plus, a delicious dinner with both vegetarian and non-vegetarian options, as well as a barbecue. ",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               height: 2,
                               color: Color.fromARGB(255, 148, 141, 141)),
                         ),
-                      ),
-                      Text(
-                        "AED 300 Perperson",
-                        style: TextStyle(
-                            height: 2,
-                            color: Color.fromARGB(255, 148, 141, 141)),
                       ),
                       Text(
                         "AED 250 ONLY",
@@ -190,18 +184,12 @@ class _MainCarouselState extends State<MainCarousel> {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          " This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ Vip Sitting Area Inside The Camp.",
+                          "This tour package includes transportation to and from your location, dune bashing, sand boarding, a camel ride, belly dancing, Tanoura, and a fire show. It also includes a vegetarian and non-vegetarian dinner, as well as a BBQ with a VIP seating area within the camp.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               height: 2,
                               color: Color.fromARGB(255, 148, 141, 141)),
                         ),
-                      ),
-                      Text(
-                        "AED 250 Perperson",
-                        style: TextStyle(
-                            height: 2,
-                            color: Color.fromARGB(255, 148, 141, 141)),
                       ),
                       Text(
                         "AED 170 ONLY",
@@ -258,18 +246,12 @@ class _MainCarouselState extends State<MainCarousel> {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          " This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Quad Bike Ride Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ Vip Sitting Area Inside The Camp.",
+                          " This adventure package offers transportation from your place of residence and a host of activities such as Red Sand Dune Bashing, Sand Boarding, Quad Bike Ride, Camel Ride, Belly Dance, Tanoura and Fire Show. There is also a Veg & Non-Veg Dinner with BBQ available in a special VIP Sitting Area inside the camp.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               height: 2,
                               color: Color.fromARGB(255, 148, 141, 141)),
                         ),
-                      ),
-                      Text(
-                        "AED 400 Perperson",
-                        style: TextStyle(
-                            height: 2,
-                            color: Color.fromARGB(255, 148, 141, 141)),
                       ),
                       Text(
                         "AED 300 ONLY",
@@ -326,7 +308,7 @@ class _MainCarouselState extends State<MainCarousel> {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          " This Tour Includes 4×4 Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride Quad Bike Ride.",
+                          "This trip provides 4×4 pickup and return service from your spot, as well as red sand dune bashing, sand boarding, a camel ride, and quad bike ride.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               height: 2,
@@ -394,18 +376,12 @@ class _MainCarouselState extends State<MainCarousel> {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          " This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ Overnight Stay In The Desert.",
+                          "This Tour Provides Round Trip Transportation From Your Place of Origin and features Red Sand Dune Bashing, Sand Boarding, a Camel Ride, Belly Dance, Tanoura Performance, and a Fire Show. Additionally, Veg and Non-Veg Dinner along with Barbeque are Included, and you'll be spending the Night in the Desert.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               height: 2,
                               color: Color.fromARGB(255, 148, 141, 141)),
                         ),
-                      ),
-                      Text(
-                        "AED 450 Perperson",
-                        style: TextStyle(
-                            height: 2,
-                            color: Color.fromARGB(255, 148, 141, 141)),
                       ),
                       Text(
                         "AED 300 ONLY",
@@ -474,41 +450,37 @@ class _MainCarouselState extends State<MainCarousel> {
                             Image.asset("images/safari.jpg"),
                             Padding(
                               padding:
-                                  const EdgeInsets.symmetric(horizontal: 6),
+                                  const EdgeInsets.symmetric(horizontal: 3),
                               child: Text(
-                                "This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ. ",
+                                "This trip provides you with transport from your specified location and involves sand dune bashing, sand boarding, camel rides, belly dancing, Tanoura and a fire show. Additionally, you will be provided with both vegetarian and non-vegetarian dinner and a BBQ.",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    height: 1.4,
+                                    height: 1.3,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
                             ),
                             Text(
                               "AED 115 ONLY",
                               style: TextStyle(
-                                  fontSize: 20,
-                                  height: 1.4,
+                                  fontSize: 14,
+                                  height: 1.2,
                                   color: Color.fromARGB(255, 182, 170, 0),
                                   fontWeight: FontWeight.bold),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 2),
-                              child: InkWell(
-                                onTap: (() {
-                                  Navigator.pushReplacementNamed(
-                                      context, EveningDesertSafari.id);
-                                }),
-                                child: Container(
-                                  height: 35,
-                                  width: 110,
-                                  decoration: BoxDecoration(
-                                      color: Colors.transparent,
-                                      border: Border.all(
-                                          color:
-                                              Color.fromARGB(255, 182, 170, 0),
-                                          width: 3)),
-                                  child: Center(child: Text("Explore More")),
-                                ),
+                            InkWell(
+                              onTap: (() {
+                                Navigator.pushReplacementNamed(
+                                    context, EveningDesertSafari.id);
+                              }),
+                              child: Container(
+                                height: 35,
+                                width: 110,
+                                decoration: BoxDecoration(
+                                    color: Colors.transparent,
+                                    border: Border.all(
+                                        color: Color.fromARGB(255, 182, 170, 0),
+                                        width: 3)),
+                                child: Center(child: Text("Explore More")),
                               ),
                             ),
                           ],
@@ -529,7 +501,7 @@ class _MainCarouselState extends State<MainCarousel> {
                         child: Column(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.symmetric(vertical: 1),
+                              padding: const EdgeInsets.symmetric(vertical: 0),
                               child: Text(
                                 "EVENING DESERT SAFARI + QUAD BIKE",
                                 textAlign: TextAlign.center,
@@ -539,20 +511,20 @@ class _MainCarouselState extends State<MainCarousel> {
                             ),
                             Image.asset("images/image2.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(4.0),
+                              padding: const EdgeInsets.all(1.0),
                               child: Text(
-                                "This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Quad Bike Ride Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ. ",
+                                "This tour package offers a comprehensive experience, with pick-up and drop-off from your location, dune bashing, sand-boarding, quad biking, camel rides, belly dancing, Tanoura,and a fire show. Plus,a delicious dinner with both vegetarian and non-vegetarian options and barbecue. ",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    height: 1.3,
+                                    height: 1.0,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
                             ),
                             Text(
                               "AED 250 ONLY",
                               style: TextStyle(
-                                  fontSize: 20,
-                                  height: 1.2,
+                                  fontSize: 15,
+                                  height: 1.0,
                                   color: Color.fromARGB(255, 182, 170, 0),
                                   fontWeight: FontWeight.bold),
                             ),
@@ -608,18 +580,18 @@ class _MainCarouselState extends State<MainCarousel> {
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 2),
                               child: Text(
-                                " This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ Vip Sitting Area Inside The Camp.",
+                                "This tour package includes transportation to and from your location, dune bashing, sand boarding, a camel ride, belly dancing, Tanoura, and a fire show. It also includes a vegetarian and non-vegetarian dinner, as well as a BBQ with a VIP seating area within the camp.",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    height: 1.15,
+                                    height: 1.0,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
                             ),
                             Text(
                               "AED 170 ONLY",
                               style: TextStyle(
-                                  fontSize: 20,
-                                  height: 1.5,
+                                  fontSize: 13,
+                                  height: 1.2,
                                   color: Color.fromARGB(255, 182, 170, 0),
                                   fontWeight: FontWeight.bold),
                             ),
@@ -662,7 +634,7 @@ class _MainCarouselState extends State<MainCarousel> {
                           children: [
                             Padding(
                               padding:
-                                  const EdgeInsets.symmetric(horizontal: 5),
+                                  const EdgeInsets.symmetric(horizontal: 0),
                               child: Text(
                                 "VIP DESERT SAFARI + QUAD BIKE",
                                 textAlign: TextAlign.center,
@@ -673,33 +645,33 @@ class _MainCarouselState extends State<MainCarousel> {
                             Image.asset("images/image4.jpg"),
                             Padding(
                               padding:
-                                  const EdgeInsets.symmetric(horizontal: 6),
+                                  const EdgeInsets.symmetric(horizontal: 2),
                               child: Text(
-                                " This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Quad Bike Ride Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ Vip Sitting Area Inside The Camp.",
+                                " This adventure package offers transportation from your place of residence and a host of activities such as Red Sand Dune Bashing, Sand Boarding, Quad Bike Ride, Camel Ride, Belly Dance, Tanoura and Fire Show. There is also a Veg & Non-Veg Dinner with BBQ available in a special VIP Sitting Area inside the camp.",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    height: 1.1,
+                                    height: 1.0,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
                             ),
                             Text(
                               "AED 300 ONLY",
                               style: TextStyle(
-                                  fontSize: 20,
-                                  height: 1.5,
+                                  fontSize: 12,
+                                  height: 1.0,
                                   color: Color.fromARGB(255, 182, 170, 0),
                                   fontWeight: FontWeight.bold),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(top: 5),
+                              padding: const EdgeInsets.only(top: 0),
                               child: InkWell(
                                 onTap: (() {
                                   Navigator.pushReplacementNamed(
                                       context, BookNow.id);
                                 }),
                                 child: Container(
-                                  height: 35,
-                                  width: 110,
+                                  height: 28,
+                                  width: 95,
                                   decoration: BoxDecoration(
                                       color: Colors.transparent,
                                       border: Border.all(
@@ -747,7 +719,7 @@ class _MainCarouselState extends State<MainCarousel> {
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 2),
                               child: Text(
-                                " This Tour Includes 4×4 Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride Quad Bike Ride.",
+                                "This trip provides 4×4 pickup and return service from your spot, as well as red sand dune bashing, sand boarding, a camel ride, and quad bike ride.",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     height: 1.7,
@@ -757,7 +729,7 @@ class _MainCarouselState extends State<MainCarousel> {
                             Text(
                               "AED 350 ONLY",
                               style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 13,
                                   height: 2,
                                   color: Color.fromARGB(255, 182, 170, 0),
                                   fontWeight: FontWeight.bold),
@@ -814,31 +786,31 @@ class _MainCarouselState extends State<MainCarousel> {
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 2),
                               child: Text(
-                                " This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ Overnight Stay In The Desert.",
+                                "This Tour Provides Round Trip Transportation From Your Place of Origin and features Red Sand Dune Bashing, Sand Boarding, a Camel Ride, Belly Dance, Tanoura Performance, and a Fire Show. Additionally, Veg and Non-Veg Dinner along with Barbeque are Included, and you'll be spending the Night in the Desert.",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    height: 1.1,
+                                    height: 1.0,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
                             ),
                             Text(
                               "AED 300 ONLY",
                               style: TextStyle(
-                                  fontSize: 20,
-                                  height: 1.5,
+                                  fontSize: 12,
+                                  height: 1.3,
                                   color: Color.fromARGB(255, 182, 170, 0),
                                   fontWeight: FontWeight.bold),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(top: 2),
+                              padding: const EdgeInsets.only(top: 0),
                               child: InkWell(
                                 onTap: (() {
                                   Navigator.pushReplacementNamed(
                                       context, BookNow.id);
                                 }),
                                 child: Container(
-                                  height: 35,
-                                  width: 110,
+                                  height: 27,
+                                  width: 95,
                                   decoration: BoxDecoration(
                                       color: Colors.transparent,
                                       border: Border.all(
@@ -885,18 +857,12 @@ class _MainCarouselState extends State<MainCarousel> {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                "This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ. ",
+                                "This trip provides you with transport from your specified location and involves sand dune bashing, sand boarding, camel rides, belly dancing, Tanoura and a fire show. Additionally, you will be provided with both vegetarian and non-vegetarian dinner and a BBQ. ",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     height: 2,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
-                            ),
-                            Text(
-                              "AED 150 Perperson",
-                              style: TextStyle(
-                                  height: 2,
-                                  color: Color.fromARGB(255, 148, 141, 141)),
                             ),
                             Text(
                               "AED 115 ONLY",
@@ -907,7 +873,7 @@ class _MainCarouselState extends State<MainCarousel> {
                                   fontWeight: FontWeight.bold),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(top: 13),
+                              padding: const EdgeInsets.only(top: 5),
                               child: InkWell(
                                 onTap: (() {
                                   Navigator.pushReplacementNamed(
@@ -956,18 +922,12 @@ class _MainCarouselState extends State<MainCarousel> {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                "This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Quad Bike Ride Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ. ",
+                                "This tour package offers a comprehensive experience, with pick-up and drop-off from your location, dune bashing, sand-boarding, quad biking, camel rides, belly dancing, Tanoura, and a fire show. Plus, a delicious dinner with both vegetarian and non-vegetarian options, as well as a barbecue. ",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    height: 2,
+                                    height: 1.5,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
-                            ),
-                            Text(
-                              "AED 300 Perperson",
-                              style: TextStyle(
-                                  height: 2,
-                                  color: Color.fromARGB(255, 148, 141, 141)),
                             ),
                             Text(
                               "AED 250 ONLY",
@@ -978,7 +938,7 @@ class _MainCarouselState extends State<MainCarousel> {
                                   fontWeight: FontWeight.bold),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(top: 13),
+                              padding: const EdgeInsets.only(top: 0),
                               child: InkWell(
                                 onTap: (() {
                                   Navigator.pushReplacementNamed(
@@ -1026,18 +986,12 @@ class _MainCarouselState extends State<MainCarousel> {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                " This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ Vip Sitting Area Inside The Camp.",
+                                "This tour package includes transportation to and from your location, dune bashing, sand boarding, a camel ride, belly dancing, Tanoura, and a fire show. It also includes a vegetarian and non-vegetarian dinner, as well as a BBQ with a VIP seating area within the camp.",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     height: 2,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
-                            ),
-                            Text(
-                              "AED 250 Perperson",
-                              style: TextStyle(
-                                  height: 2,
-                                  color: Color.fromARGB(255, 148, 141, 141)),
                             ),
                             Text(
                               "AED 170 ONLY",
@@ -1110,12 +1064,6 @@ class _MainCarouselState extends State<MainCarousel> {
                               ),
                             ),
                             Text(
-                              "AED 400 Perperson",
-                              style: TextStyle(
-                                  height: 2,
-                                  color: Color.fromARGB(255, 148, 141, 141)),
-                            ),
-                            Text(
                               "AED 300 ONLY",
                               style: TextStyle(
                                   fontSize: 20,
@@ -1173,18 +1121,12 @@ class _MainCarouselState extends State<MainCarousel> {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                " This Tour Includes 4×4 Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride Quad Bike Ride.",
+                                "This trip provides 4×4 pickup and return service from your spot, as well as red sand dune bashing, sand boarding, a camel ride, and quad bike ride.",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     height: 2,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
-                            ),
-                            Text(
-                              "AED 400 Perperson",
-                              style: TextStyle(
-                                  height: 2,
-                                  color: Color.fromARGB(255, 148, 141, 141)),
                             ),
                             Text(
                               "AED 350 ONLY",
@@ -1195,7 +1137,7 @@ class _MainCarouselState extends State<MainCarousel> {
                                   fontWeight: FontWeight.bold),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(top: 5),
+                              padding: const EdgeInsets.only(top: 13),
                               child: InkWell(
                                 onTap: (() {
                                   Navigator.pushReplacementNamed(
@@ -1244,29 +1186,23 @@ class _MainCarouselState extends State<MainCarousel> {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                " This Tour Includes Pick & Drop From Your Location Red Sand Dune Bashing, Sand Boarding, Camel Ride, Belly Dance, Tanoura and Fire Show. As well as Veg & Non-Veg Dinner along with BBQ Overnight Stay In The Desert.",
+                                "This Tour Provides Round Trip Transportation From Your Place of Origin and features Red Sand Dune Bashing, Sand Boarding, a Camel Ride, Belly Dance, Tanoura Performance, and a Fire Show. Additionally, Veg and Non-Veg Dinner along with Barbeque are Included, and you'll be spending the Night in the Desert.",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    height: 2,
+                                    height: 1.6,
                                     color: Color.fromARGB(255, 148, 141, 141)),
                               ),
                             ),
                             Text(
-                              "AED 450 Perperson",
-                              style: TextStyle(
-                                  height: 2,
-                                  color: Color.fromARGB(255, 148, 141, 141)),
-                            ),
-                            Text(
                               "AED 300 ONLY",
                               style: TextStyle(
-                                  fontSize: 20,
-                                  height: 1.5,
+                                  fontSize: 18,
+                                  height: 1.0,
                                   color: Color.fromARGB(255, 182, 170, 0),
                                   fontWeight: FontWeight.bold),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(top: 5),
+                              padding: const EdgeInsets.only(top: 0),
                               child: InkWell(
                                 onTap: (() {
                                   Navigator.pushReplacementNamed(

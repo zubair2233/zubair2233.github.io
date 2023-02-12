@@ -41,7 +41,7 @@ class _TextColumnState extends State<TextColumn> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(40, 0, 40, 0),
                 child: Text(
-                  "Evening Desert Safari is the most wanted trip attraction because of its exciting and unique features. With this attraction, you can make your visit memorable. Desert is the best place to scroll down all your tiredness and explore an entirely new world of calmness and sanity. From 4 PM to 8 PM, you should not miss out on a single moment of enjoyment. In this time, you will activities full of fun, adventure, and thrilling actions. Starting from 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and other thrillers are the same way on the menu. However, don’t worry, there is a lot more to enjoy. A sunset view in the desert – what a priceless moment to enjoy with your loved one. Cherish the moments and live the matchless desert experience. Apart from this, the most famous “photo with eagle” is just what you want for a perfect Instagram or Facebook cover.",
+                  " Spending an evening in the desert is the most sought-after outing due to its remarkable and extraordinary characteristics. Visiting the desert is the best way to relax and explore a different environment that is tranquil and tranquilizing. From 4 PM to 8 PM, you should make sure to take pleasure of every single minute. During this time, there are a variety of enjoyable, adventurous, and thrilling activities on offer, such as 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and many more. Moreover, you can also witness the magnificent sunset in the desert, which is a priceless instant to share with your loved ones. Capture these moments to keep this unparalleled desert experience forever in your memories. Apart from this, the popular photo with eagle is ideal for a perfect Instagram or Facebook cover.",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -71,7 +71,7 @@ class _TextColumnState extends State<TextColumn> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(40, 0, 40, 0),
                 child: Text(
-                  "For the people who want more energizes in their neglect safari, we offer the decision to fuse Quad Bike Dubai as one of the activities. If you have never been steering the ship of a four-wheeled Quad Biking in Dubai, you will surely find it a thrilling foundation. We will put forth a valiant effort to make the Quad Biking venture fun and safe for you. Starting with Quad Bike with prosperity planning before you go steering the ship of the bike. At the point when you feel the energy of the Quad Bike in Dubai as it zooms through the ascents of the Dubai deceive. you will not want to stop it when the time is up during Quad Desert Dubai. ",
+                  " For those who are seeking excitement on their desert safari, we offer them the opportunity to add Quad Bike Dubai as one of the activities. If you have never had the experience of driving a 4-wheeled Quad Bike in Dubai, you will surely find it exhilarating. We will strive to make the Quad Biking venture enjoyable and secure for you. This includes safety protocols before beginning the Quad Bike tour. Once you feel the power of the Quad Bike in Dubai as it moves across the sand dunes of Dubai, you won't want it to end when the ride is done.",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -80,27 +80,10 @@ class _TextColumnState extends State<TextColumn> {
               SizedBox(
                 height: 40,
               ),
-              Text(
-                "EVENING DESERT SAFARI",
-                style: TextStyle(
-                  fontSize: 25,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              SizedBox(
-                height: 25,
-              ),
-              Padding(
-                padding: const EdgeInsets.only(left: 30, right: 30),
-                child: Divider(
-                  height: 1,
-                  color: Color.fromARGB(255, 185, 180, 180),
-                ),
-              ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(40, 0, 40, 0),
                 child: Text(
-                  "Evening Desert Safari is the most wanted trip attraction because of its exciting and unique features. With this attraction, you can make your visit memorable. Desert is the best place to scroll down all your tiredness and explore an entirely new world of calmness and sanity. From 4 PM to 8 PM, you should not miss out on a single moment of enjoyment. In this time, you will activities full of fun, adventure, and thrilling actions. Starting from 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and other thrillers are the same way on the menu. However, don’t worry, there is a lot more to enjoy. A sunset view in the desert – what a priceless moment to enjoy with your loved one. Cherish the moments and live the matchless desert experience. Apart from this, the most famous “photo with eagle” is just what you want for a perfect Instagram or Facebook cover.",
+                  " The Evening Desert Safari is the most sought-after excursion, owing to its astonishing and exclusive features. With this tour, you can make your vacation remarkable. A desert is the ideal place to destress and discover an entirely fresh realm of tranquility and composure. From 4 PM to 8 PM, you should not miss a single moment of pleasure. During this time, you will be involved in activities that are full of joy, daring, and exhilarating actions. Setting off from 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and other stimulating activities are all on the list. Nonetheless, don't worry, there is plenty more to relish. A sundown view in the desert – a priceless moment to share with your beloved one. Cherish the instants and experience the unparalleled desert adventure. Furthermore, the most sought-after photo with an eagle is just what you need for a perfect Instagram or Facebook profile picture.",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -130,7 +113,7 @@ class _TextColumnState extends State<TextColumn> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(40, 0, 40, 0),
                 child: Text(
-                  " After the amazingly exhilarating thrill ride comes to Camel Ride in Dubai. It is the most dramatic portion of today’s desert safari. As you ride on ‘the boat of the desert,’ i.e. Camel Ride Dubai, you can partake in the shocking vistas of the remote skyline. Aside from Camel Riding, we can make accessible sandboard test your adjusting expertise e on the sand. In case this isn’t sufficient, there are quad bicycles for visitors looking for more experience and rush in the desert before Camel Riding Dubai. You will never forget this Camel Riding in Dubai visit ever.",
+                  " The Evening Desert Safari is sought after by many tourists due to its exciting and unique features. It provides a great opportunity to make your journey an unforgettable one. The desert is the best place to relax and explore a new world of tranquillity. The period from 4 PM to 8 PM is extremely enjoyable, with plenty of fun and thrilling activities on offer. A 4×4 land cruiser SUV, quad bike riding, sandboarding, camel rides, and other exciting ventures are just some of the options. Furthermore, there is the incredible experience of watching the sunset in the desert, a priceless moment with your loved one. Capture the moment and savour the incredible desert experience. Don't forget to take a photo with an eagle for the perfect Instagram or Facebook cover.",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -160,7 +143,7 @@ class _TextColumnState extends State<TextColumn> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(40, 0, 40, 0),
                 child: Text(
-                  " Are you a fan of dance? From Tanaura to belly dancing, your evenings will bloom with glamour and beauty. After all the outdoor activities, the traditional Arabic Qehwa/Tea with a touch of Arabic dance will soothe all your tiredness. Moreover, don’t forget to get Heena tattooed for free. And obviously! It doesn’t hurt. After the sunset, the dinner and BBQ scenes just go live to mesmerize yourself further with the beautiful experience of an Evening Desert Safari Dubai. With all these enterprising and exciting activities, the dazzling starry evening comes to an end while leaving the various moments to remember. Ride here and there the vast rises outside of Dubai while the sun sets during this Arabian Desert Safari Dubai. Among these activities, you can also customize your package as per your convenience and likings for Evening Desert Safari.",
+                  " Do you like to dance? From Tanaura to belly dancing, you'll be able to add glamor and beauty to your evenings. And after all that outdoor fun, why not enjoy some traditional Arabic Qehwa/Tea with a bit of dancing to round off the night? Don't forget that there's also Heena tattooing on offer, which doesn't hurt at all! Plus, once the sun sets, you can enjoy a delicious dinner & BBQ before ending your Arabian Desert Safari Dubai with a beautiful starry evening. You can even customize your package for an Evening Desert Safari according to your needs and preferences!",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -193,13 +176,13 @@ class _TextColumnState extends State<TextColumn> {
                   Column(
                     children: [
                       Text(
-                        "DESERT ADVENTURE ",
+                        "DUBAI DESERT ",
                         style: TextStyle(fontSize: 22),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 130),
                         child: Text(
-                          "TOURS",
+                          "SAFARI",
                           style: TextStyle(fontSize: 22),
                         ),
                       ),
@@ -255,7 +238,7 @@ class _TextColumnState extends State<TextColumn> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(70, 0, 70, 0),
                     child: Text(
-                      "Evening Desert Safari is the most wanted trip attraction because of its exciting and unique features. With this attraction, you can make your visit memorable. Desert is the best place to scroll down all your tiredness and explore an entirely new world of calmness and sanity. From 4 PM to 8 PM, you should not miss out on a single moment of enjoyment. In this time, you will activities full of fun, adventure, and thrilling actions. Starting from 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and other thrillers are the same way on the menu. However, don’t worry, there is a lot more to enjoy. A sunset view in the desert – what a priceless moment to enjoy with your loved one. Cherish the moments and live the matchless desert experience. Apart from this, the most famous “photo with eagle” is just what you want for a perfect Instagram or Facebook cover.",
+                      " Spending an evening in the desert is the most sought-after outing due to its remarkable and extraordinary characteristics. Visiting the desert is the best way to relax and explore a different environment that is tranquil and tranquilizing. From 4 PM to 8 PM, you should make sure to take pleasure of every single minute. During this time, there are a variety of enjoyable, adventurous, and thrilling activities on offer, such as 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and many more. Moreover, you can also witness the magnificent sunset in the desert, which is a priceless instant to share with your loved ones. Capture these moments to keep this unparalleled desert experience forever in your memories. Apart from this, the popular photo with eagle is ideal for a perfect Instagram or Facebook cover.",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -285,36 +268,7 @@ class _TextColumnState extends State<TextColumn> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(70, 0, 70, 0),
                     child: Text(
-                      "For the people who want more energizes in their neglect safari, we offer the decision to fuse Quad Bike Dubai as one of the activities. If you have never been steering the ship of a four-wheeled Quad Biking in Dubai, you will surely find it a thrilling foundation. We will put forth a valiant effort to make the Quad Biking venture fun and safe for you. Starting with Quad Bike with prosperity planning before you go steering the ship of the bike. At the point when you feel the energy of the Quad Bike in Dubai as it zooms through the ascents of the Dubai deceive. you will not want to stop it when the time is up during Quad Desert Dubai. ",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          height: 2, color: Color.fromARGB(255, 148, 141, 141)),
-                    ),
-                  ),
-                  SizedBox(
-                    height: 40,
-                  ),
-                  Text(
-                    "EVENING DESERT SAFARI",
-                    style: TextStyle(
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 25,
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 30, right: 30),
-                    child: Divider(
-                      height: 1,
-                      color: Color.fromARGB(255, 185, 180, 180),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(70, 0, 70, 0),
-                    child: Text(
-                      "Evening Desert Safari is the most wanted trip attraction because of its exciting and unique features. With this attraction, you can make your visit memorable. Desert is the best place to scroll down all your tiredness and explore an entirely new world of calmness and sanity. From 4 PM to 8 PM, you should not miss out on a single moment of enjoyment. In this time, you will activities full of fun, adventure, and thrilling actions. Starting from 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and other thrillers are the same way on the menu. However, don’t worry, there is a lot more to enjoy. A sunset view in the desert – what a priceless moment to enjoy with your loved one. Cherish the moments and live the matchless desert experience. Apart from this, the most famous “photo with eagle” is just what you want for a perfect Instagram or Facebook cover.",
+                      " For those who are seeking excitement on their desert safari, we offer them the opportunity to add Quad Bike Dubai as one of the activities. If you have never had the experience of driving a 4-wheeled Quad Bike in Dubai, you will surely find it exhilarating. We will strive to make the Quad Biking venture enjoyable and secure for you. This includes safety protocols before beginning the Quad Bike tour. Once you feel the power of the Quad Bike in Dubai as it moves across the sand dunes of Dubai, you won't want it to end when the ride is done.",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -344,7 +298,7 @@ class _TextColumnState extends State<TextColumn> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(70, 0, 70, 0),
                     child: Text(
-                      " After the amazingly exhilarating thrill ride comes to Camel Ride in Dubai. It is the most dramatic portion of today’s desert safari. As you ride on ‘the boat of the desert,’ i.e. Camel Ride Dubai, you can partake in the shocking vistas of the remote skyline. Aside from Camel Riding, we can make accessible sandboard test your adjusting expertise e on the sand. In case this isn’t sufficient, there are quad bicycles for visitors looking for more experience and rush in the desert before Camel Riding Dubai. You will never forget this Camel Riding in Dubai visit ever.",
+                      " The Evening Desert Safari is sought after by many tourists due to its exciting and unique features. It provides a great opportunity to make your journey an unforgettable one. The desert is the best place to relax and explore a new world of tranquillity. The period from 4 PM to 8 PM is extremely enjoyable, with plenty of fun and thrilling activities on offer. A 4×4 land cruiser SUV, quad bike riding, sandboarding, camel rides, and other exciting ventures are just some of the options. Furthermore, there is the incredible experience of watching the sunset in the desert, a priceless moment with your loved one. Capture the moment and savour the incredible desert experience. Don't forget to take a photo with an eagle for the perfect Instagram or Facebook cover.",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -374,7 +328,7 @@ class _TextColumnState extends State<TextColumn> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(70, 0, 70, 0),
                     child: Text(
-                      " Are you a fan of dance? From Tanaura to belly dancing, your evenings will bloom with glamour and beauty. After all the outdoor activities, the traditional Arabic Qehwa/Tea with a touch of Arabic dance will soothe all your tiredness. Moreover, don’t forget to get Heena tattooed for free. And obviously! It doesn’t hurt. After the sunset, the dinner and BBQ scenes just go live to mesmerize yourself further with the beautiful experience of an Evening Desert Safari Dubai. With all these enterprising and exciting activities, the dazzling starry evening comes to an end while leaving the various moments to remember. Ride here and there the vast rises outside of Dubai while the sun sets during this Arabian Desert Safari Dubai. Among these activities, you can also customize your package as per your convenience and likings for Evening Desert Safari.",
+                      " Do you like to dance? From Tanaura to belly dancing, you'll be able to add glamor and beauty to your evenings. And after all that outdoor fun, why not enjoy some traditional Arabic Qehwa/Tea with a bit of dancing to round off the night? Don't forget that there's also Heena tattooing on offer, which doesn't hurt at all! Plus, once the sun sets, you can enjoy a delicious dinner & BBQ before ending your Arabian Desert Safari Dubai with a beautiful starry evening. You can even customize your package for an Evening Desert Safari according to your needs and preferences!",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -389,7 +343,7 @@ class _TextColumnState extends State<TextColumn> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "DESERT ADVENTURE TOURS",
+                          "DUBAI DESERT SAFARI",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 22,
@@ -408,13 +362,13 @@ class _TextColumnState extends State<TextColumn> {
                               child: Column(
                                 children: [
                                   Text(
-                                    "DESERT ADVENTURE ",
+                                    "DUBAI DESERT ",
                                     style: TextStyle(fontSize: 18),
                                   ),
                                   Padding(
                                     padding: const EdgeInsets.only(left: 130),
                                     child: Text(
-                                      "TOURS",
+                                      "SAFARI",
                                       style: TextStyle(fontSize: 18),
                                     ),
                                   ),
@@ -474,7 +428,7 @@ class _TextColumnState extends State<TextColumn> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(200, 0, 200, 0),
                     child: Text(
-                      "Evening Desert Safari is the most wanted trip attraction because of its exciting and unique features. With this attraction, you can make your visit memorable. Desert is the best place to scroll down all your tiredness and explore an entirely new world of calmness and sanity. From 4 PM to 8 PM, you should not miss out on a single moment of enjoyment. In this time, you will activities full of fun, adventure, and thrilling actions. Starting from 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and other thrillers are the same way on the menu. However, don’t worry, there is a lot more to enjoy. A sunset view in the desert – what a priceless moment to enjoy with your loved one. Cherish the moments and live the matchless desert experience. Apart from this, the most famous “photo with eagle” is just what you want for a perfect Instagram or Facebook cover.",
+                      " Spending an evening in the desert is the most sought-after outing due to its remarkable and extraordinary characteristics. Visiting the desert is the best way to relax and explore a different environment that is tranquil and tranquilizing. From 4 PM to 8 PM, you should make sure to take pleasure of every single minute. During this time, there are a variety of enjoyable, adventurous, and thrilling activities on offer, such as 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and many more. Moreover, you can also witness the magnificent sunset in the desert, which is a priceless instant to share with your loved ones. Capture these moments to keep this unparalleled desert experience forever in your memories. Apart from this, the popular photo with eagle is ideal for a perfect Instagram or Facebook cover.",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -504,36 +458,7 @@ class _TextColumnState extends State<TextColumn> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(200, 0, 200, 0),
                     child: Text(
-                      "For the people who want more energizes in their neglect safari, we offer the decision to fuse Quad Bike Dubai as one of the activities. If you have never been steering the ship of a four-wheeled Quad Biking in Dubai, you will surely find it a thrilling foundation. We will put forth a valiant effort to make the Quad Biking venture fun and safe for you. Starting with Quad Bike with prosperity planning before you go steering the ship of the bike. At the point when you feel the energy of the Quad Bike in Dubai as it zooms through the ascents of the Dubai deceive. you will not want to stop it when the time is up during Quad Desert Dubai. ",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          height: 2, color: Color.fromARGB(255, 148, 141, 141)),
-                    ),
-                  ),
-                  SizedBox(
-                    height: 40,
-                  ),
-                  Text(
-                    "EVENING DESERT SAFARI",
-                    style: TextStyle(
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 25,
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 30, right: 30),
-                    child: Divider(
-                      height: 1,
-                      color: Color.fromARGB(255, 185, 180, 180),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(200, 0, 200, 0),
-                    child: Text(
-                      "Evening Desert Safari is the most wanted trip attraction because of its exciting and unique features. With this attraction, you can make your visit memorable. Desert is the best place to scroll down all your tiredness and explore an entirely new world of calmness and sanity. From 4 PM to 8 PM, you should not miss out on a single moment of enjoyment. In this time, you will activities full of fun, adventure, and thrilling actions. Starting from 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and other thrillers are the same way on the menu. However, don’t worry, there is a lot more to enjoy. A sunset view in the desert – what a priceless moment to enjoy with your loved one. Cherish the moments and live the matchless desert experience. Apart from this, the most famous “photo with eagle” is just what you want for a perfect Instagram or Facebook cover.",
+                      " For those who are seeking excitement on their desert safari, we offer them the opportunity to add Quad Bike Dubai as one of the activities. If you have never had the experience of driving a 4-wheeled Quad Bike in Dubai, you will surely find it exhilarating. We will strive to make the Quad Biking venture enjoyable and secure for you. This includes safety protocols before beginning the Quad Bike tour. Once you feel the power of the Quad Bike in Dubai as it moves across the sand dunes of Dubai, you won't want it to end when the ride is done.",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -563,7 +488,7 @@ class _TextColumnState extends State<TextColumn> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(200, 0, 200, 0),
                     child: Text(
-                      " After the amazingly exhilarating thrill ride comes to Camel Ride in Dubai. It is the most dramatic portion of today’s desert safari. As you ride on ‘the boat of the desert,’ i.e. Camel Ride Dubai, you can partake in the shocking vistas of the remote skyline. Aside from Camel Riding, we can make accessible sandboard test your adjusting expertise e on the sand. In case this isn’t sufficient, there are quad bicycles for visitors looking for more experience and rush in the desert before Camel Riding Dubai. You will never forget this Camel Riding in Dubai visit ever.",
+                      " The Evening Desert Safari is sought after by many tourists due to its exciting and unique features. It provides a great opportunity to make your journey an unforgettable one. The desert is the best place to relax and explore a new world of tranquillity. The period from 4 PM to 8 PM is extremely enjoyable, with plenty of fun and thrilling activities on offer. A 4×4 land cruiser SUV, quad bike riding, sandboarding, camel rides, and other exciting ventures are just some of the options. Furthermore, there is the incredible experience of watching the sunset in the desert, a priceless moment with your loved one. Capture the moment and savour the incredible desert experience. Don't forget to take a photo with an eagle for the perfect Instagram or Facebook cover.",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -593,7 +518,7 @@ class _TextColumnState extends State<TextColumn> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(200, 0, 200, 0),
                     child: Text(
-                      " Are you a fan of dance? From Tanaura to belly dancing, your evenings will bloom with glamour and beauty. After all the outdoor activities, the traditional Arabic Qehwa/Tea with a touch of Arabic dance will soothe all your tiredness. Moreover, don’t forget to get Heena tattooed for free. And obviously! It doesn’t hurt. After the sunset, the dinner and BBQ scenes just go live to mesmerize yourself further with the beautiful experience of an Evening Desert Safari Dubai. With all these enterprising and exciting activities, the dazzling starry evening comes to an end while leaving the various moments to remember. Ride here and there the vast rises outside of Dubai while the sun sets during this Arabian Desert Safari Dubai. Among these activities, you can also customize your package as per your convenience and likings for Evening Desert Safari.",
+                      " Do you like to dance? From Tanaura to belly dancing, you'll be able to add glamor and beauty to your evenings. And after all that outdoor fun, why not enjoy some traditional Arabic Qehwa/Tea with a bit of dancing to round off the night? Don't forget that there's also Heena tattooing on offer, which doesn't hurt at all! Plus, once the sun sets, you can enjoy a delicious dinner & BBQ before ending your Arabian Desert Safari Dubai with a beautiful starry evening. You can even customize your package for an Evening Desert Safari according to your needs and preferences!",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -608,7 +533,7 @@ class _TextColumnState extends State<TextColumn> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Text(
-                          "DESERT ADVENTURE TOURS",
+                          "DUBAI DESERT SAFARI",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 24,
@@ -631,14 +556,14 @@ class _TextColumnState extends State<TextColumn> {
                               child: Column(
                                 children: [
                                   Text(
-                                    "DESERT ADVENTURE ",
+                                    "DUBAI DESERT ",
                                     style: TextStyle(
                                         fontSize: 20, letterSpacing: 2),
                                   ),
                                   Padding(
                                     padding: const EdgeInsets.only(left: 130),
                                     child: Text(
-                                      "TOURS",
+                                      "SAFARI",
                                       style: TextStyle(
                                           fontSize: 20, letterSpacing: 2),
                                     ),
