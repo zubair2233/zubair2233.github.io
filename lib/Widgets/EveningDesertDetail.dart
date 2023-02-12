@@ -505,7 +505,7 @@ class _EveningDetailState extends State<EveningDetail> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             FloatingActionButton(
-                              child: const Icon(Icons.whatsapp_sharp),
+                              child: Icon(Icons.chat),
                               backgroundColor: Colors.green.shade800,
                               onPressed: () async {
                                 launchUrl(whatsapp);
@@ -879,7 +879,7 @@ class _EveningDetailState extends State<EveningDetail> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   FloatingActionButton(
-                                    child: const Icon(Icons.whatsapp_sharp),
+                                    child: const Icon(Icons.chat),
                                     backgroundColor: Colors.green.shade800,
                                     onPressed: () async {
                                       launchUrl(whatsapp);
@@ -1182,11 +1182,6 @@ class _EveningDetailState extends State<EveningDetail> {
                           style: TextStyle(
                               height: 2,
                               color: Color.fromARGB(255, 148, 141, 141)),
-                          // textAlign: TextAlign.center,
-                          // style: TextStyle(
-                          //     wordSpacing: 10,
-                          //     letterSpacing: 1,
-                          //     color: Colors.grey.withOpacity(0.9)),
                         ),
                       ),
                     ),
@@ -1251,7 +1246,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 FloatingActionButton(
-                                  child: const Icon(Icons.whatsapp_sharp),
+                                  child: const Icon(Icons.chat),
                                   backgroundColor: Colors.green.shade800,
                                   onPressed: () async {
                                     launchUrl(whatsapp);
