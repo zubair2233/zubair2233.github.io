@@ -29,21 +29,8 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
         extendBodyBehindAppBar: true,
         appBar: screenSize.width < 800
             ? AppBar(
-                // iconTheme: IconThemeData(color: Colors.blue),
-                // elevation: 0,
-                backgroundColor: Colors.white.withOpacity(_opacity),
-                title: Image.asset("images/cropped-20220707_202854-300x87.png")
-                // Text(
-                //   'Desert Adventure Tour',
-                //   style: TextStyle(
-                //     color: Color(0xFF077bd7),
-                //     fontSize: 20,
-                //     fontFamily: "Raleway",
-                //     fontWeight: FontWeight.w900,
-                //     letterSpacing: 3,
-                //   ),
-                // ),
-                )
+                backgroundColor: Colors.transparent,
+              )
             : PreferredSize(
                 preferredSize: Size(screenSize.width, 70),
                 child: TopBarContent(_opacity),
@@ -56,13 +43,9 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                   height: 3600,
                   width: double.infinity,
                   child: Stack(
-                    // alignment: Alignment.bottomCenter,
-                    // physics: AlwaysScrollableScrollPhysics(),
-
                     children: [
                       Column(
                         children: [
-                          // TopBarContent(_opacity),
                           Container(
                             height: 400,
                             width: double.infinity,
@@ -73,18 +56,11 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                               children: [
                                 Text(
                                   "EVENING DESERT \nSAFARI + Atv",
-                                  style:
-                                      //  GoogleFonts.aBeeZee(
-                                      //   color: Colors.white,
-                                      //   fontSize: 50,
-                                      // ),
-                                      TextStyle(
-                                          // fontFamily: GoogleFonts.
-                                          // fontFeatures: ,
-                                          fontSize: 40,
-                                          color: Colors.white,
-                                          fontWeight: FontWeight.bold,
-                                          fontStyle: FontStyle.italic),
+                                  style: TextStyle(
+                                      fontSize: 40,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      fontStyle: FontStyle.italic),
                                 ),
                               ],
                             )),
@@ -117,7 +93,6 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                 "images/image2.jpg",
                                                 scale: 0.5,
                                               )),
-                                          // Image.asset("images/TripAdvisor.png")
                                         ],
                                       ),
                                       Padding(
@@ -501,110 +476,9 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                       SizedBox(
                                         height: 25,
                                       ),
-                                      // Padding(
-                                      //   padding: const EdgeInsets.symmetric(
-                                      //       horizontal: 100),
-                                      //   child: Container(
-                                      //     child: Text(
-                                      //       "Premium Evening Desert Safari Dubai is perfect for people who are crazy to do the dune bashing , sandbording and camel riding and many more activities and would like to enjoy a peaceful yet exciting dining under the stars. Arrive at the Arabian ambiance a traditional Bedouin campsite, where a traditional Arabian welcome awaits you.\n\nEvening Desert Safari Dubai in lahbab included an exciting camel ride, Dress yourself in the traditional Arabic dress, Henna painting (exclusive Arabic designs) on hands or feet and enjoy the freshly made Arabic sweets, savoring sips of the delicious Arabian brew – Coffee or simply enjoy the aromatic shisha (the famous Arabic water pipe), watching a Traditional Belly show and Tanoura show.\n\nFinally when all the activity done a delicious BBQ dinner cooked on a site is waiting for you then and you have the choice between a variety of appetizers, grilled specialties, Salads, Selection of fresh vegetables, specialty dishes for the vegetarians and not forgetting Traditional Arabic and Exotic Fresh Fruits to sweeten your mouth and also the climax of the evening desert safari under the star-lit sky by graceful show performance set to the rhythm of traditional Arabian music is the added Eastern entertainment.\n\nEvening Desert Safari Dubai at explore the red Dunes of Al Lahbab Dubai desert safari with 45 Minutes Dune drive by Land Cruiser, Sand Boarding, Sunset, Camel Ride and entertaining shows on\n\n beautiful Arabian Bedouin camp.",
-                                      //       textAlign: TextAlign.center,
-                                      //       style: TextStyle(
-                                      //           wordSpacing: 10,
-                                      //           letterSpacing: 1,
-                                      //           color: Colors.grey.withOpacity(0.9)),
-                                      //     ),
-                                      //   ),
-                                      // ),
                                       SizedBox(
                                         height: 25,
                                       ),
-                                      // Padding(
-                                      //   padding: const EdgeInsets.only(
-                                      //       left: 100, right: 100),
-                                      //   child: Row(
-                                      //     mainAxisAlignment:
-                                      //         MainAxisAlignment.spaceBetween,
-                                      //     children: [
-                                      //       Text(
-                                      //         "DESERT ADVENTURE TOURS",
-                                      //         textAlign: TextAlign.center,
-                                      //         style: TextStyle(
-                                      //           fontSize: 20,
-                                      //           letterSpacing: 3,
-                                      //           fontWeight: FontWeight.bold,
-                                      //         ),
-                                      //       ),
-                                      //       SizedBox(
-                                      //         width: 15,
-                                      //       ),
-                                      //       Row(
-                                      //         mainAxisAlignment:
-                                      //             MainAxisAlignment.center,
-                                      //         children: [
-                                      //           Icon(
-                                      //             Icons.lock_clock_rounded,
-                                      //             size: 40,
-                                      //           ),
-                                      //           Padding(
-                                      //             padding:
-                                      //                 const EdgeInsets.only(
-                                      //                     top: 18),
-                                      //             child: Column(
-                                      //               children: [
-                                      //                 Text(
-                                      //                   "DESERT ADVENTURE ",
-                                      //                   style: TextStyle(
-                                      //                       fontSize: 22,
-                                      //                       letterSpacing: 2),
-                                      //                 ),
-                                      //                 Padding(
-                                      //                   padding:
-                                      //                       const EdgeInsets
-                                      //                               .only(
-                                      //                           left: 130),
-                                      //                   child: Text(
-                                      //                     "TOURS",
-                                      //                     style: TextStyle(
-                                      //                         fontSize: 22,
-                                      //                         letterSpacing: 2),
-                                      //                   ),
-                                      //                 ),
-                                      //               ],
-                                      //             ),
-                                      //           )
-                                      //         ],
-                                      //       ),
-                                      //       SizedBox(
-                                      //         width: 40,
-                                      //       ),
-                                      //       Padding(
-                                      //         padding: const EdgeInsets.only(
-                                      //             top: 30),
-                                      //         child: Container(
-                                      //           height: 50,
-                                      //           width: 130,
-                                      //           decoration: BoxDecoration(
-                                      //               color: Color.fromARGB(
-                                      //                   255, 253, 112, 18)),
-                                      //           child: TextButton(
-                                      //               onPressed: () {
-                                      //                 Navigator
-                                      //                     .pushReplacementNamed(
-                                      //                         context,
-                                      //                         BookNow.id);
-                                      //               },
-                                      //               child: Text(
-                                      //                 "Book Now",
-                                      //                 style: TextStyle(
-                                      //                   fontSize: 20,
-                                      //                   color: Colors.white,
-                                      //                 ),
-                                      //               )),
-                                      //         ),
-                                      //       )
-                                      //     ],
-                                      //   ),
-                                      // ),
                                       Padding(
                                         padding: const EdgeInsets.only(
                                             left: 30, right: 30),
@@ -613,7 +487,7 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                               MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
-                                              "DESERT ADVENTURE TOURS",
+                                              "DUBAI DESERT SAFARIS",
                                               textAlign: TextAlign.center,
                                               style: TextStyle(
                                                 fontSize: 22,
@@ -635,7 +509,7 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                   child: Column(
                                                     children: [
                                                       Text(
-                                                        "DESERT ADVENTURE ",
+                                                        "DUBAI DESERT ",
                                                         style: TextStyle(
                                                             fontSize: 18),
                                                       ),
@@ -645,7 +519,7 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                                     .only(
                                                                 left: 110),
                                                         child: Text(
-                                                          "TOURS",
+                                                          "SAFARIS",
                                                           style: TextStyle(
                                                               fontSize: 18),
                                                         ),
@@ -701,7 +575,6 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                           ],
                                         ),
                                       ),
-
                                       BottomBar()
                                     ],
                                   ),
@@ -721,13 +594,9 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                       height: 4000,
                       width: double.infinity,
                       child: Stack(
-                        // alignment: Alignment.bottomCenter,
-                        // physics: AlwaysScrollableScrollPhysics(),
-
                         children: [
                           Column(
                             children: [
-                              // TopBarContent(_opacity),
                               Container(
                                 height: 360,
                                 width: double.infinity,
@@ -735,17 +604,10 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                 child: Center(
                                     child: Text(
                                   "EVENING DESERT SAFARI + Atv",
-                                  style:
-                                      //  GoogleFonts.aBeeZee(
-                                      //   color: Colors.white,
-                                      //   fontSize: 50,
-                                      // ),
-                                      TextStyle(
-                                          // fontFamily: GoogleFonts.
-                                          // fontFeatures: ,
-                                          fontSize: 50,
-                                          color: Colors.white,
-                                          fontStyle: FontStyle.normal),
+                                  style: TextStyle(
+                                      fontSize: 50,
+                                      color: Colors.white,
+                                      fontStyle: FontStyle.normal),
                                 )),
                               ),
                             ],
@@ -777,7 +639,6 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                     "images/image2.jpg",
                                                     scale: 0.6,
                                                   )),
-                                              // Image.asset("images/TripAdvisor.png")
                                             ],
                                           ),
                                           Padding(
@@ -1083,7 +944,7 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                           .spaceBetween,
                                                   children: [
                                                     Text(
-                                                      "DESERT ADVENTURE TOURS",
+                                                      "DUBAI DESERT SAFARIS",
                                                       textAlign:
                                                           TextAlign.center,
                                                       style: TextStyle(
@@ -1114,7 +975,7 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                           child: Column(
                                                             children: [
                                                               Text(
-                                                                "DESERT ADVENTURE ",
+                                                                "DUBAI DESERT ",
                                                                 style: TextStyle(
                                                                     fontSize:
                                                                         20,
@@ -1128,7 +989,7 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                                         left:
                                                                             130),
                                                                 child: Text(
-                                                                  "TOURS",
+                                                                  "SAFARIS",
                                                                   style: TextStyle(
                                                                       fontSize:
                                                                           20,
@@ -1153,8 +1014,8 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                             .center,
                                                     children: [
                                                       FloatingActionButton(
-                                                        child: const Icon(Icons
-                                                            .whatsapp_sharp),
+                                                        child: const Icon(
+                                                            Icons.chat),
                                                         backgroundColor: Colors
                                                             .green.shade800,
                                                         onPressed: () async {
@@ -1214,13 +1075,9 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                       height: 3850,
                       width: double.infinity,
                       child: Stack(
-                        // alignment: Alignment.bottomCenter,
-                        // physics: AlwaysScrollableScrollPhysics(),
-
                         children: [
                           Column(
                             children: [
-                              // TopBarContent(_opacity),
                               Container(
                                 height: 360,
                                 width: double.infinity,
@@ -1228,17 +1085,10 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                 child: Center(
                                     child: Text(
                                   "EVENING DESERT SAFARI + Atv",
-                                  style:
-                                      //  GoogleFonts.aBeeZee(
-                                      //   color: Colors.white,
-                                      //   fontSize: 50,
-                                      // ),
-                                      TextStyle(
-                                          // fontFamily: GoogleFonts.
-                                          // fontFeatures: ,
-                                          fontSize: 50,
-                                          color: Colors.white,
-                                          fontStyle: FontStyle.normal),
+                                  style: TextStyle(
+                                      fontSize: 50,
+                                      color: Colors.white,
+                                      fontStyle: FontStyle.normal),
                                 )),
                               ),
                             ],
@@ -1270,7 +1120,6 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                     "images/image2.jpg",
                                                     scale: 0.6,
                                                   )),
-                                              // Image.asset("images/TripAdvisor.png")
                                             ],
                                           ),
                                           Padding(
@@ -1562,114 +1411,9 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                           SizedBox(
                                             height: 25,
                                           ),
-                                          // Padding(
-                                          //   padding: const EdgeInsets.symmetric(
-                                          //       horizontal: 100),
-                                          //   child: Container(
-                                          //     child: Text(
-                                          //       "Premium Evening Desert Safari Dubai is perfect for people who are crazy to do the dune bashing , sandbording and camel riding and many more activities and would like to enjoy a peaceful yet exciting dining under the stars. Arrive at the Arabian ambiance a traditional Bedouin campsite, where a traditional Arabian welcome awaits you.\n\nEvening Desert Safari Dubai in lahbab included an exciting camel ride, Dress yourself in the traditional Arabic dress, Henna painting (exclusive Arabic designs) on hands or feet and enjoy the freshly made Arabic sweets, savoring sips of the delicious Arabian brew – Coffee or simply enjoy the aromatic shisha (the famous Arabic water pipe), watching a Traditional Belly show and Tanoura show.\n\nFinally when all the activity done a delicious BBQ dinner cooked on a site is waiting for you then and you have the choice between a variety of appetizers, grilled specialties, Salads, Selection of fresh vegetables, specialty dishes for the vegetarians and not forgetting Traditional Arabic and Exotic Fresh Fruits to sweeten your mouth and also the climax of the evening desert safari under the star-lit sky by graceful show performance set to the rhythm of traditional Arabian music is the added Eastern entertainment.\n\nEvening Desert Safari Dubai at explore the red Dunes of Al Lahbab Dubai desert safari with 45 Minutes Dune drive by Land Cruiser, Sand Boarding, Sunset, Camel Ride and entertaining shows on\n\n beautiful Arabian Bedouin camp.",
-                                          //       textAlign: TextAlign.center,
-                                          //       style: TextStyle(
-                                          //           wordSpacing: 10,
-                                          //           letterSpacing: 1,
-                                          //           color: Colors.grey.withOpacity(0.9)),
-                                          //     ),
-                                          //   ),
-                                          // ),
                                           SizedBox(
                                             height: 25,
                                           ),
-                                          // Padding(
-                                          //   padding: const EdgeInsets.only(
-                                          //       left: 100, right: 100),
-                                          //   child: Row(
-                                          //     mainAxisAlignment:
-                                          //         MainAxisAlignment
-                                          //             .spaceBetween,
-                                          //     children: [
-                                          //       Text(
-                                          //         "DESERT ADVENTURE TOURS",
-                                          //         textAlign: TextAlign.center,
-                                          //         style: TextStyle(
-                                          //           fontSize: 20,
-                                          //           letterSpacing: 3,
-                                          //           fontWeight: FontWeight.bold,
-                                          //         ),
-                                          //       ),
-                                          //       SizedBox(
-                                          //         width: 15,
-                                          //       ),
-                                          //       Row(
-                                          //         mainAxisAlignment:
-                                          //             MainAxisAlignment.center,
-                                          //         children: [
-                                          //           Icon(
-                                          //             Icons.lock_clock_rounded,
-                                          //             size: 40,
-                                          //           ),
-                                          //           Padding(
-                                          //             padding:
-                                          //                 const EdgeInsets.only(
-                                          //                     top: 18),
-                                          //             child: Column(
-                                          //               children: [
-                                          //                 Text(
-                                          //                   "DESERT ADVENTURE ",
-                                          //                   style: TextStyle(
-                                          //                       fontSize: 22,
-                                          //                       letterSpacing:
-                                          //                           2),
-                                          //                 ),
-                                          //                 Padding(
-                                          //                   padding:
-                                          //                       const EdgeInsets
-                                          //                               .only(
-                                          //                           left: 130),
-                                          //                   child: Text(
-                                          //                     "TOURS",
-                                          //                     style: TextStyle(
-                                          //                         fontSize: 22,
-                                          //                         letterSpacing:
-                                          //                             2),
-                                          //                   ),
-                                          //                 ),
-                                          //               ],
-                                          //             ),
-                                          //           )
-                                          //         ],
-                                          //       ),
-                                          //       SizedBox(
-                                          //         width: 40,
-                                          //       ),
-                                          //       Padding(
-                                          //         padding:
-                                          //             const EdgeInsets.only(
-                                          //                 top: 30),
-                                          //         child: Container(
-                                          //           height: 50,
-                                          //           width: 130,
-                                          //           decoration: BoxDecoration(
-                                          //               color: Color.fromARGB(
-                                          //                   255, 253, 112, 18)),
-                                          //           child: TextButton(
-                                          //               onPressed: () {
-                                          //                 Navigator
-                                          //                     .pushReplacementNamed(
-                                          //                         context,
-                                          //                         BookNow.id);
-                                          //               },
-                                          //               child: Text(
-                                          //                 "Book Now",
-                                          //                 style: TextStyle(
-                                          //                   fontSize: 20,
-                                          //                   color: Colors.white,
-                                          //                 ),
-                                          //               )),
-                                          //         ),
-                                          //       )
-                                          //     ],
-                                          //   ),
-                                          // ),
                                           Padding(
                                             padding: const EdgeInsets.only(
                                                 left: 100, right: 100),
@@ -1679,7 +1423,7 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                       .spaceBetween,
                                               children: [
                                                 Text(
-                                                  "DESERT ADVENTURE TOURS",
+                                                  "DUBAI DESERT SAFARIS",
                                                   textAlign: TextAlign.center,
                                                   style: TextStyle(
                                                     fontSize: 20,
@@ -1705,7 +1449,7 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                       child: Column(
                                                         children: [
                                                           Text(
-                                                            "DESERT ADVENTURE ",
+                                                            "DUBAI DESERT ",
                                                             style: TextStyle(
                                                                 fontSize: 22,
                                                                 letterSpacing:
@@ -1717,7 +1461,7 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                                         .only(
                                                                     left: 130),
                                                             child: Text(
-                                                              "TOURS",
+                                                              "SAFARIS",
                                                               style: TextStyle(
                                                                   fontSize: 22,
                                                                   letterSpacing:
@@ -1731,6 +1475,30 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                                 ),
                                                 SizedBox(
                                                   width: 40,
+                                                ),
+                                                Padding(
+                                                  padding:
+                                                      const EdgeInsets.only(
+                                                          top: 25),
+                                                  child: Row(
+                                                    mainAxisAlignment:
+                                                        MainAxisAlignment
+                                                            .center,
+                                                    children: [
+                                                      FloatingActionButton(
+                                                        child: const Icon(
+                                                            Icons.chat),
+                                                        backgroundColor: Colors
+                                                            .green.shade800,
+                                                        onPressed: () async {
+                                                          launchUrl(whatsapp);
+                                                        },
+                                                      ),
+                                                      SizedBox(
+                                                        height: 10,
+                                                      ),
+                                                    ],
+                                                  ),
                                                 ),
                                                 Padding(
                                                   padding:
@@ -1761,7 +1529,6 @@ class _EveningDesertAtvState extends State<EveningDesertAtv> {
                                               ],
                                             ),
                                           ),
-
                                           BottomBar()
                                         ],
                                       ),

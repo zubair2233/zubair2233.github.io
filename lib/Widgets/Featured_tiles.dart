@@ -19,7 +19,7 @@ class FeaturedTiles extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
                 child: Text(
-                    "If you are looking for thrill, fun, and ultimate outdoor entertainment, you have come to the right place. Desert Safari Dubai is all this plus much more. The duel between rolling red dunes and monstrous Land Cruiser is only experienced and enjoyed when you are in it and you are holding for your dear life. The safari guide keeps it on edge, yet you are safe. The thrilling safari has its fans screaming and yelling for more and more of this activity-filled adventure outing. Enjoy the desert safari with your friends, family, or colleagues in Dubai’s vast and mesmerizing desert. Sun, sand and 4 x 4 are bringing out the perfect thrills for generations!",
+                    " If you are searching for excitement, joy, and the best in outdoorsy entertainment, you have come to the right spot. Desert Safari Dubai is all this and more. The challenge between the rolling red dunes and the mighty Land Cruiser can only be savored when you are inside it and clinging on for dear life. The safari guide will keep it stimulating, and you will be perfectly safe. The thrilling safari has its fans shouting and asking for more of this action-filled journey. Have a great time in the desert safari with your friends, family, or workmates in Dubai's immense and captivating desert. Sun, sand, and 4 x 4 are creating the perfect thrills for generations!",
                     style: TextStyle(height: 2, color: Colors.black45)),
               ),
               Padding(
@@ -46,7 +46,7 @@ class FeaturedTiles extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Call / Whatsapp For Quick Booking",
+                    "Whatsapp /CallFor Quick Booking",
                     style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
@@ -68,7 +68,7 @@ class FeaturedTiles extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(60, 0, 60, 0),
                     child: Text(
-                      "If you are looking for thrill, fun, and ultimate outdoor entertainment, you have come to the right place. Desert Safari Dubai is all this plus much more. The duel between rolling red dunes and monstrous Land Cruiser is only experienced and enjoyed when you are in it and you are holding for your dear life. The safari guide keeps it on edge, yet you are safe. The thrilling safari has its fans screaming and yelling for more and more of this activity-filled adventure outing. Enjoy the desert safari with your friends, family, or colleagues in Dubai’s vast and mesmerizing desert. Sun, sand and 4 x 4 are bringing out the perfect thrills for generations!",
+                      " If you are searching for excitement, joy, and the best in outdoorsy entertainment, you have come to the right spot. Desert Safari Dubai is all this and more. The challenge between the rolling red dunes and the mighty Land Cruiser can only be savored when you are inside it and clinging on for dear life. The safari guide will keep it stimulating, and you will be perfectly safe. The thrilling safari has its fans shouting and asking for more of this action-filled journey. Have a great time in the desert safari with your friends, family, or workmates in Dubai's immense and captivating desert. Sun, sand, and 4 x 4 are creating the perfect thrills for generations!",
                       textAlign: TextAlign.center,
                       style: TextStyle(height: 2, color: Colors.black45),
                     ),
@@ -124,7 +124,7 @@ class FeaturedTiles extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.fromLTRB(130, 0, 130, 0),
                       child: Text(
-                        "If you are looking for thrill, fun, and ultimate outdoor entertainment, you have come to the right place. Desert Safari Dubai is all this plus much more. The duel between rolling red dunes and monstrous Land Cruiser is only experienced and enjoyed when you are in it and you are holding for your dear life. The safari guide keeps it on edge, yet you are safe. The thrilling safari has its fans screaming and yelling for more and more of this activity-filled adventure outing. Enjoy the desert safari with your friends, family, or colleagues in Dubai’s vast and mesmerizing desert. Sun, sand and 4 x 4 are bringing out the perfect thrills for generations!",
+                        " If you are searching for excitement, joy, and the best in outdoorsy entertainment, you have come to the right spot. Desert Safari Dubai is all this and more. The challenge between the rolling red dunes and the mighty Land Cruiser can only be savored when you are inside it and clinging on for dear life. The safari guide will keep it stimulating, and you will be perfectly safe. The thrilling safari has its fans shouting and asking for more of this action-filled journey. Have a great time in the desert safari with your friends, family, or workmates in Dubai's immense and captivating desert. Sun, sand, and 4 x 4 are creating the perfect thrills for generations!",
                         style: TextStyle(height: 2, color: Colors.black45),
                       ),
                     ),
@@ -152,7 +152,7 @@ class FeaturedTiles extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          "Call / Whatsapp For Quick Booking",
+                          "WhatsappCall/Call For Quick Booking",
                           style: TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.bold,

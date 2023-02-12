@@ -1,4 +1,4 @@
-import 'package:dubai_desert_safari/Pages/Contact.dart';
+// import 'package:dubai_desert_safari/Pages/Contact.dart';
 import 'package:dubai_desert_safari/Pages/EveningDesertSafari+Atv.dart';
 import 'package:dubai_desert_safari/Pages/EveningDesertSafari.dart';
 import 'package:dubai_desert_safari/Screens/HomePage.dart';
@@ -35,16 +35,11 @@ class _TopBarContentState extends State<TopBarContent> {
           children: [
             Expanded(
                 child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 SizedBox(
                   width: screenSize.width / 4,
                 ),
-                Expanded(
-                    child: Image.asset(
-                  "images/cropped-20220707_202854.png",
-                  scale: 4,
-                )),
                 SizedBox(
                   width: screenSize.width / 15,
                 ),
@@ -183,7 +178,7 @@ class _TopBarContentState extends State<TopBarContent> {
                       });
                     },
                     onTap: () {
-                      Navigator.pushNamed(context, Contact.id);
+                      // Navigator.pushNamed(context, Contact.id);
                     },
                   ),
                 ),

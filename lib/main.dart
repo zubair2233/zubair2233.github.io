@@ -1,9 +1,7 @@
+import 'package:dubai_desert_safari/AdminPanel/Homescreen.dart';
 import 'package:dubai_desert_safari/Pages/BookNow.dart';
-import 'package:dubai_desert_safari/Pages/Contact.dart';
 import 'package:dubai_desert_safari/Pages/EveningDesertSafari+Atv.dart';
 import 'package:dubai_desert_safari/Pages/EveningDesertSafari.dart';
-import 'package:dubai_desert_safari/Pages/History.dart';
-import 'package:dubai_desert_safari/Pages/Read.dart';
 import 'package:dubai_desert_safari/Screens/HomePage.dart';
 import 'package:dubai_desert_safari/Widgets/EveningDesertDetail.dart';
 import 'package:dubai_desert_safari/Widgets/Form.dart';
@@ -51,15 +49,15 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
+      // home: HomeScreen(),
+
       routes: {
         EveningDetail.id: (context) => EveningDetail(),
         EveningDesertSafari.id: (context) => EveningDesertSafari(),
         EveningDesertAtv.id: (context) => EveningDesertAtv(),
         HomePage.id: (context) => HomePage(),
-        History.id: (context) => History(),
         BookNow.id: (context) => BookNow(),
-        Contact.id: (context) => Contact(),
-        Read.id: (context) => Read(),
+        // Contact.id: (context) => Contact(),
         card.id: (context) => card(),
         form.id: (context) => form(),
       },
