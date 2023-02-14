@@ -79,30 +79,6 @@ class _BookNowState extends State<BookNow> {
               BottomBar()
             ],
           ),
-          // Positioned(
-          //   top: 500,
-          //   child: Column(
-          //     children: [
-          //       FloatingActionButton(
-          //         child: const Icon(Icons.whatsapp_sharp),
-          //         backgroundColor: Colors.green.shade800,
-          //         onPressed: () async {
-          //           launchUrl(whatsapp);
-          //         },
-          //       ),
-          //       SizedBox(
-          //         height: 10,
-          //       ),
-          //       FloatingActionButton(
-          //         child: const Icon(Icons.call),
-          //         backgroundColor: Colors.green.shade800,
-          //         onPressed: () async {
-          //           print(await canLaunchUrl(phoneNumber));
-          //         },
-          //       ),
-          //     ],
-          //   ),
-          // ),
         ],
       ),
     );
