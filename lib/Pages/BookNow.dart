@@ -59,16 +59,6 @@ class _BookNowState extends State<BookNow> {
         children: [
           ListView(
             children: [
-              // Container(
-              //   child: SizedBox(
-              //     height: screenSize.height * 0.99,
-              //     width: screenSize.width,
-              //     child: Image.asset(
-              //       "images/safari.jpg",
-              //       fit: BoxFit.cover,
-              //     ),
-              //   ),
-              // ),
               Container(
                 height: screenSize.height * 0.3,
                 width: double.infinity,
