@@ -49,15 +49,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
-      // home: HomeScreen(),
-
       routes: {
         EveningDetail.id: (context) => EveningDetail(),
         EveningDesertSafari.id: (context) => EveningDesertSafari(),
         EveningDesertAtv.id: (context) => EveningDesertAtv(),
         HomePage.id: (context) => HomePage(),
         BookNow.id: (context) => BookNow(),
-        // Contact.id: (context) => Contact(),
         card.id: (context) => card(),
         form.id: (context) => form(),
       },
