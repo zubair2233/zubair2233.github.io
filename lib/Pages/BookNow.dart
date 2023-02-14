@@ -59,16 +59,6 @@ class _BookNowState extends State<BookNow> {
         children: [
           ListView(
             children: [
-              // Container(
-              //   child: SizedBox(
-              //     height: screenSize.height * 0.99,
-              //     width: screenSize.width,
-              //     child: Image.asset(
-              //       "images/safari.jpg",
-              //       fit: BoxFit.cover,
-              //     ),
-              //   ),
-              // ),
               Container(
                 height: screenSize.height * 0.3,
                 width: double.infinity,
@@ -89,30 +79,6 @@ class _BookNowState extends State<BookNow> {
               BottomBar()
             ],
           ),
-          // Positioned(
-          //   top: 500,
-          //   child: Column(
-          //     children: [
-          //       FloatingActionButton(
-          //         child: const Icon(Icons.whatsapp_sharp),
-          //         backgroundColor: Colors.green.shade800,
-          //         onPressed: () async {
-          //           launchUrl(whatsapp);
-          //         },
-          //       ),
-          //       SizedBox(
-          //         height: 10,
-          //       ),
-          //       FloatingActionButton(
-          //         child: const Icon(Icons.call),
-          //         backgroundColor: Colors.green.shade800,
-          //         onPressed: () async {
-          //           print(await canLaunchUrl(phoneNumber));
-          //         },
-          //       ),
-          //     ],
-          //   ),
-          // ),
         ],
       ),
     );
