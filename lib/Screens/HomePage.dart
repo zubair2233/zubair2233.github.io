@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           Positioned(
-            top: 500,
+            top: 570,
             child: Column(
               children: [
                 FloatingActionButton(

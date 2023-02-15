@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:dubai_desert_safari/Widgets/Bottom_Bar.dart';
-import 'package:dubai_desert_safari/Widgets/Carousel_slider.dart';
-import 'package:dubai_desert_safari/Widgets/Featured_heading.dart';
-import 'package:dubai_desert_safari/Widgets/Featured_tiles.dart';
-import 'package:dubai_desert_safari/Widgets/Floating_quick_access_bar.dart';
+// import 'package:dubai_desert_safari/Widgets/Carousel_slider.dart';
+// import 'package:dubai_desert_safari/Widgets/Featured_heading.dart';
+// import 'package:dubai_desert_safari/Widgets/Featured_tiles.dart';
+// import 'package:dubai_desert_safari/Widgets/Floating_quick_access_bar.dart';
 import 'package:dubai_desert_safari/Widgets/Form.dart';
-import 'package:dubai_desert_safari/Widgets/Mian_Heading.dart';
+// import 'package:dubai_desert_safari/Widgets/Mian_Heading.dart';
 import 'package:dubai_desert_safari/Widgets/TopBarContent.dart';
 import 'package:dubai_desert_safari/Widgets/manu_drawer.dart';
-import 'package:dubai_desert_safari/Widgets/textColumn.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:dubai_desert_safari/Widgets/textColumn.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class BookNow extends StatefulWidget {
   static const id = "/BookNow";
