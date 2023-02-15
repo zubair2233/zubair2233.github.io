@@ -105,6 +105,10 @@ class _HomePageState extends State<HomePage> {
           //   size: AdBlockSize.largeRectangle,
           //   adUnitId: "1647933054",
           // )
+          // AdBlock(
+          //   size: AdBlockSize.largeRectangle,
+          //   adUnitId: "1647933054",
+          // )
         ],
       ),
     );
