@@ -31,6 +31,8 @@ class _HomePageState extends State<HomePage> {
     // TODO: implement initState
     AdManagerWeb.init();
     super.initState();
+    print("jhifuhiuhy");
+    print("jhifuhiuhy");
   }
 
   @override
