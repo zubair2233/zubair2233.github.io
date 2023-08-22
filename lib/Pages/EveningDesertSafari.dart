@@ -1,10 +1,9 @@
 import 'package:dubai_desert_safari/Widgets/Bottom_Bar.dart';
 import 'package:dubai_desert_safari/Widgets/EveningDesertDetail.dart';
 import 'package:dubai_desert_safari/Widgets/TopBarContent.dart';
-import 'package:dubai_desert_safari/Widgets/manu_drawer.dart';
 import 'package:flutter/material.dart';
 
-import 'package:url_launcher/url_launcher.dart';
+import '../Widgets/manu_drawer.dart';
 
 class EveningDesertSafari extends StatefulWidget {
   static const id = "/EveningDesertSafari";
@@ -32,18 +31,22 @@ class _EveningDesertSafariState extends State<EveningDesertSafari> {
       extendBodyBehindAppBar: true,
       appBar: screenSize.width < 800
           ? AppBar(
-              iconTheme: IconThemeData(color: Colors.blue),
+              iconTheme: IconThemeData(
+                color: const Color.fromARGB(255, 185, 175, 81),
+              ),
               elevation: 0,
               backgroundColor: Colors.white.withOpacity(_opacity),
-              title: Text(
-                'Desert Adventure Tour',
-                style: TextStyle(
-                  color: Color(0xFF077bd7),
-                  fontSize: 20,
-                  fontFamily: "Raleway",
-                  fontWeight: FontWeight.w900,
-                  letterSpacing: 3,
-                ),
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "Dubai Desert Safari ",
+                    style: TextStyle(
+                        color: const Color.fromARGB(255, 185, 175, 81),
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ],
               ),
             )
           : PreferredSize(

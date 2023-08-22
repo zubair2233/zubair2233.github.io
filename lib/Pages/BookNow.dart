@@ -1,15 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:dubai_desert_safari/Widgets/Bottom_Bar.dart';
-// import 'package:dubai_desert_safari/Widgets/Carousel_slider.dart';
-// import 'package:dubai_desert_safari/Widgets/Featured_heading.dart';
-// import 'package:dubai_desert_safari/Widgets/Featured_tiles.dart';
-// import 'package:dubai_desert_safari/Widgets/Floating_quick_access_bar.dart';
 import 'package:dubai_desert_safari/Widgets/Form.dart';
-// import 'package:dubai_desert_safari/Widgets/Mian_Heading.dart';
 import 'package:dubai_desert_safari/Widgets/TopBarContent.dart';
-import 'package:dubai_desert_safari/Widgets/manu_drawer.dart';
-// import 'package:dubai_desert_safari/Widgets/textColumn.dart';
-// import 'package:url_launcher/url_launcher.dart';
+import '../Widgets/manu_drawer.dart';
 
 class BookNow extends StatefulWidget {
   static const id = "/BookNow";
@@ -39,15 +32,17 @@ class _BookNowState extends State<BookNow> {
               iconTheme: IconThemeData(color: Colors.blue),
               elevation: 0,
               backgroundColor: Colors.white.withOpacity(_opacity),
-              title: Text(
-                'Desert Adventure Tour',
-                style: TextStyle(
-                  color: Color(0xFF077bd7),
-                  fontSize: 20,
-                  fontFamily: "Raleway",
-                  fontWeight: FontWeight.w900,
-                  letterSpacing: 3,
-                ),
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "Dubai Desert Safari",
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ],
               ),
             )
           : PreferredSize(

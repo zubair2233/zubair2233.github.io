@@ -1,16 +1,11 @@
-import 'package:dubai_desert_safari/AdminPanel/Homescreen.dart';
 import 'package:dubai_desert_safari/Pages/BookNow.dart';
-import 'package:dubai_desert_safari/Pages/EveningDesertSafari+Atv.dart';
 import 'package:dubai_desert_safari/Pages/EveningDesertSafari.dart';
 import 'package:dubai_desert_safari/Screens/HomePage.dart';
 import 'package:dubai_desert_safari/Widgets/EveningDesertDetail.dart';
-import 'package:dubai_desert_safari/Widgets/Form.dart';
-import 'package:dubai_desert_safari/Widgets/card.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-
-import 'package:responsive_framework/responsive_wrapper.dart';
+import 'package:get/get.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -31,20 +26,9 @@ void main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      builder: (context, child) => ResponsiveWrapper.builder(
-        child,
-        maxWidth: 1300,
-        minWidth: 360,
-        defaultScale: true,
-        breakpoints: [
-          const ResponsiveBreakpoint.resize(360, name: MOBILE),
-          const ResponsiveBreakpoint.autoScale(800, name: TABLET),
-          const ResponsiveBreakpoint.resize(1300, name: DESKTOP),
-        ],
-      ),
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Dubai Safari Desert',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -52,11 +36,8 @@ class MyApp extends StatelessWidget {
       routes: {
         EveningDetail.id: (context) => EveningDetail(),
         EveningDesertSafari.id: (context) => EveningDesertSafari(),
-        EveningDesertAtv.id: (context) => EveningDesertAtv(),
         HomePage.id: (context) => HomePage(),
         BookNow.id: (context) => BookNow(),
-        card.id: (context) => card(),
-        form.id: (context) => form(),
       },
     );
   }
