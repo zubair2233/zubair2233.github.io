@@ -49,14 +49,10 @@ class BottomBar extends StatelessWidget {
                       children: [
                         InfoText(
                           text: 'zubairasif4488@gmail.com',
-                          type: 'Email',
+                          type: 'Email  : ',
                         ),
                         SizedBox(
                           height: 5,
-                        ),
-                        InfoText(
-                          type: 'Address',
-                          text: 'Muhammadia town near DHQ Hospital Sahiwal',
                         ),
                       ],
                     ),
@@ -107,14 +103,10 @@ class BottomBar extends StatelessWidget {
                           children: [
                             InfoText(
                               text: 'zubairasif4488@gmail.com',
-                              type: 'Email :',
+                              type: 'Email  : ',
                             ),
                             SizedBox(
                               height: 5,
-                            ),
-                            InfoText(
-                              type: 'Address :',
-                              text: 'Muhammadia town near DHQ Hospital Sahiwal',
                             ),
                           ],
                         ),

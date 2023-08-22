@@ -2,6 +2,7 @@ import 'package:dubai_desert_safari/Pages/BookNow.dart';
 import 'package:dubai_desert_safari/Widgets/Form.dart';
 import 'package:dubai_desert_safari/Widgets/ResponsiveWidget.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class EveningDetail extends StatefulWidget {
@@ -467,7 +468,7 @@ class _EveningDetailState extends State<EveningDetail> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "DESERT ADVENTURE TOURS",
+                          "Dubai Safaris Desert",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 22,
@@ -486,13 +487,13 @@ class _EveningDetailState extends State<EveningDetail> {
                               child: Column(
                                 children: [
                                   Text(
-                                    "DESERT ADVENTURE ",
+                                    "DUBAI SAFARIS",
                                     style: TextStyle(fontSize: 18),
                                   ),
                                   Padding(
                                     padding: const EdgeInsets.only(left: 110),
                                     child: Text(
-                                      "TOURS",
+                                      "DESERT",
                                       style: TextStyle(fontSize: 18),
                                     ),
                                   ),
@@ -525,8 +526,7 @@ class _EveningDetailState extends State<EveningDetail> {
                                 color: Color.fromARGB(255, 253, 112, 18)),
                             child: TextButton(
                                 onPressed: () {
-                                  Navigator.pushReplacementNamed(
-                                      context, BookNow.id);
+                                  Get.to(() => BookNow());
                                 },
                                 child: Text(
                                   "Book Now",
@@ -813,7 +813,7 @@ class _EveningDetailState extends State<EveningDetail> {
                       ),
                       Container(
                         child: Text(
-                          " The Premium Evening Desert Safari in Dubai is ideal for those who wish to do dune bashing, sandboarding, and camel riding, as well as relish a tranquil yet stimulating dinner under the stars. Once you reach the Bedouin campsite with an Arabian atmosphere, you will be welcomed in a conventional Arabian manner. The safari in Lahbab also involves an exciting camel ride, and you can dress in the traditional Arabic clothing. You can also have henna painting (distinctive Arabic designs) on your hands or feet and savor the freshly prepared Arabian delicacies, relish the flavorful Arabian brew – coffee or just enjoy the aromatic shisha (the renowned Arabic water pipe), watch a traditional Belly show and Tanoura show. Finally, when all the activities are done, a delicious barbeque dinner cooked on the spot is available for you, offering a variety of starters, grilled specialties, salads, selection of fresh vegetables, specialty vegetarian dishes, and, of course, traditional treats.",
+                          "The Premium Evening Desert Safari in Dubai is ideal for those who wish to do dune bashing, sandboarding, and camel riding, as well as relish a tranquil yet stimulating dinner under the stars. Once you reach the Bedouin campsite with an Arabian atmosphere, you will be welcomed in a conventional Arabian manner. The safari in Lahbab also involves an exciting camel ride, and you can dress in the traditional Arabic clothing. You can also have henna painting (distinctive Arabic designs) on your hands or feet and savor the freshly prepared Arabian delicacies, relish the flavorful Arabian brew – coffee or just enjoy the aromatic shisha (the renowned Arabic water pipe), watch a traditional Belly show and Tanoura show. Finally, when all the activities are done, a delicious barbeque dinner cooked on the spot is available for you, offering a variety of starters, grilled specialties, salads, selection of fresh vegetables, specialty vegetarian dishes, and, of course, traditional treats.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               height: 2,
@@ -831,7 +831,7 @@ class _EveningDetailState extends State<EveningDetail> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "DESERT ADVENTURE TOURS",
+                                  "DUBAI DESERT SAFARI",
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     fontSize: 20,
@@ -855,7 +855,7 @@ class _EveningDetailState extends State<EveningDetail> {
                                       child: Column(
                                         children: [
                                           Text(
-                                            "DESERT ADVENTURE ",
+                                            "DUBAI DESERT",
                                             style: TextStyle(
                                                 fontSize: 20, letterSpacing: 2),
                                           ),
@@ -863,7 +863,7 @@ class _EveningDetailState extends State<EveningDetail> {
                                             padding: const EdgeInsets.only(
                                                 left: 130),
                                             child: Text(
-                                              "TOURS",
+                                              "SAFARI",
                                               style: TextStyle(
                                                   fontSize: 20,
                                                   letterSpacing: 2),
@@ -903,8 +903,7 @@ class _EveningDetailState extends State<EveningDetail> {
                                     color: Color.fromARGB(255, 253, 112, 18)),
                                 child: TextButton(
                                     onPressed: () {
-                                      Navigator.pushReplacementNamed(
-                                          context, BookNow.id);
+                                      Get.to(() => BookNow());
                                     },
                                     child: Text(
                                       "Book Now",
@@ -925,27 +924,26 @@ class _EveningDetailState extends State<EveningDetail> {
             : SingleChildScrollView(
                 child: Column(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.only(top: 210),
-                      child: Container(
-                        color: Colors.black,
-                        height: 35,
-                        width: 400,
-                        child: Center(
-                          child: Text(
-                            "EVENING DESERT SAFARI",
-                            style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                                letterSpacing: 2),
+                    SizedBox(
+                      height: 15,
+                    ),
+                    Container(
+                      color: Colors.black,
+                      height: 35,
+                      width: 400,
+                      child: Center(
+                        child: Text(
+                          "EVENING DESERT SAFARI",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            letterSpacing: 2,
                           ),
                         ),
                       ),
                     ),
-                    SizedBox(
-                      height: 25,
-                    ),
+                    SizedBox(height: 25),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(40, 0, 40, 0),
                       child: Column(
@@ -953,7 +951,7 @@ class _EveningDetailState extends State<EveningDetail> {
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Pick and Drop from your location")
+                              Text("Pick and Drop  from your location")
                             ],
                           ),
                           Row(
@@ -967,7 +965,7 @@ class _EveningDetailState extends State<EveningDetail> {
                             children: [
                               Icon(Icons.grain),
                               Text(
-                                  "A 25 to 35 minute dune-bashing adventure on the Red Sand")
+                                  "A 25 to 35 minute dune-bashing adventure on the Red Sand.")
                             ],
                           ),
                           Row(
@@ -983,18 +981,18 @@ class _EveningDetailState extends State<EveningDetail> {
                             ],
                           ),
                           Row(
-                            children: [Icon(Icons.grain), Text("Camel Riding")],
+                            children: [Icon(Icons.grain), Text("Camel Ride")],
                           ),
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Arabic Coffee, and Fresh Dates")
+                              Text("Arabic Coffee,and Fresh Dates")
                             ],
                           ),
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Hubbly Bubblee (Sheesha)")
+                              Text("Hubbly Bubblee ( Sheesha)")
                             ],
                           ),
                           Row(
@@ -1016,10 +1014,10 @@ class _EveningDetailState extends State<EveningDetail> {
                             ],
                           ),
                           Row(
-                            children: [Icon(Icons.grain), Text(" Fire Show")],
+                            children: [Icon(Icons.grain), Text("Belly Dance")],
                           ),
                           Row(
-                            children: [Icon(Icons.grain), Text(" Belly Dance")],
+                            children: [Icon(Icons.grain), Text("Fire Show")],
                           ),
                           Row(
                             children: [Icon(Icons.grain), Text("Tanura Show")],
@@ -1040,9 +1038,7 @@ class _EveningDetailState extends State<EveningDetail> {
                         ],
                       ),
                     ),
-                    SizedBox(
-                      height: 40,
-                    ),
+                    SizedBox(height: 40),
                     Padding(
                       padding: const EdgeInsets.only(top: 30),
                       child: Container(
@@ -1051,19 +1047,18 @@ class _EveningDetailState extends State<EveningDetail> {
                         width: 400,
                         child: Center(
                           child: Text(
-                            "Package Exlude",
+                            "Package Exclude",
                             style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                                letterSpacing: 2),
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              letterSpacing: 2,
+                            ),
                           ),
                         ),
                       ),
                     ),
-                    SizedBox(
-                      height: 25,
-                    ),
+                    SizedBox(height: 25),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(40, 0, 40, 0),
                       child: Column(
@@ -1083,13 +1078,13 @@ class _EveningDetailState extends State<EveningDetail> {
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Falcon Photos")
+                              Text("Vip Sitting Area")
                             ],
                           ),
                           Row(
                             children: [
                               Icon(Icons.grain),
-                              Text("Vip Sitting Area")
+                              Text("Falcon Photos")
                             ],
                           ),
                           Row(
@@ -1101,9 +1096,7 @@ class _EveningDetailState extends State<EveningDetail> {
                         ],
                       ),
                     ),
-                    SizedBox(
-                      height: 40,
-                    ),
+                    SizedBox(height: 40),
                     Padding(
                       padding: const EdgeInsets.only(top: 30),
                       child: Container(
@@ -1114,17 +1107,16 @@ class _EveningDetailState extends State<EveningDetail> {
                           child: Text(
                             "Pick Up Timing",
                             style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                                letterSpacing: 2),
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              letterSpacing: 2,
+                            ),
                           ),
                         ),
                       ),
                     ),
-                    SizedBox(
-                      height: 25,
-                    ),
+                    SizedBox(height: 25),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(40, 0, 40, 0),
                       child: Column(
@@ -1150,9 +1142,7 @@ class _EveningDetailState extends State<EveningDetail> {
                         ],
                       ),
                     ),
-                    SizedBox(
-                      height: 40,
-                    ),
+                    SizedBox(height: 40),
                     Padding(
                       padding: const EdgeInsets.only(top: 30),
                       child: Container(
@@ -1163,45 +1153,41 @@ class _EveningDetailState extends State<EveningDetail> {
                           child: Text(
                             "For Booking!",
                             style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                                letterSpacing: 2),
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              letterSpacing: 2,
+                            ),
                           ),
                         ),
                       ),
                     ),
-                    SizedBox(
-                      height: 25,
-                    ),
+                    SizedBox(height: 25),
                     form(),
-                    SizedBox(
-                      height: 25,
-                    ),
+                    SizedBox(height: 25),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 100),
                       child: Container(
                         child: Text(
-                          " The Premium Evening Desert Safari in Dubai is ideal for those who wish to do dune bashing, sandboarding, and camel riding, as well as relish a tranquil yet stimulating dinner under the stars. Once you reach the Bedouin campsite with an Arabian atmosphere, you will be welcomed in a conventional Arabian manner. The safari in Lahbab also involves an exciting camel ride, and you can dress in the traditional Arabic clothing. You can also have henna painting (distinctive Arabic designs) on your hands or feet and savor the freshly prepared Arabian delicacies, relish the flavorful Arabian brew – coffee or just enjoy the aromatic shisha (the renowned Arabic water pipe), watch a traditional Belly show and Tanoura show. Finally, when all the activities are done, a delicious barbeque dinner cooked on the spot is available for you, offering a variety of starters, grilled specialties, salads, selection of fresh vegetables, specialty vegetarian dishes, and, of course, traditional treats.",
+                          "The Premium Evening Desert Safari in Dubai is ideal for those who wish to do dune bashing, sandboarding, and camel riding, as well as relish a tranquil yet stimulating dinner under the stars. Once you reach the Bedouin campsite with an Arabian atmosphere, you will be welcomed in a conventional Arabian manner. The safari in Lahbab also involves an exciting camel ride, and you can dress in the traditional Arabic clothing. You can also have henna painting (distinctive Arabic designs) on your hands or feet and savor the freshly prepared Arabian delicacies, relish the flavorful Arabian brew – coffee or just enjoy the aromatic shisha (the renowned Arabic water pipe), watch a traditional Belly show and Tanoura show. Finally, when all the activities are done, a delicious barbeque dinner cooked on the spot is available for you, offering a variety of starters, grilled specialties, salads, selection of fresh vegetables, specialty vegetarian dishes, and, of course, traditional treats.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              height: 2,
-                              color: Color.fromARGB(255, 148, 141, 141)),
+                            height: 2,
+                            color: Color.fromARGB(255, 148, 141, 141),
+                          ),
                         ),
                       ),
                     ),
-                    SizedBox(
-                      height: 25,
-                    ),
+                    SizedBox(height: 25),
                     Padding(
                       padding: const EdgeInsets.only(left: 30, right: 30),
                       child: Column(
                         children: [
                           Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text(
-                                "DESERT ADVENTURE TOURS",
+                                "DUBAI DESERT SAFARI",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   fontSize: 20,
@@ -1209,9 +1195,7 @@ class _EveningDetailState extends State<EveningDetail> {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              SizedBox(
-                                width: 15,
-                              ),
+                              SizedBox(width: 20),
                               Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
@@ -1225,22 +1209,26 @@ class _EveningDetailState extends State<EveningDetail> {
                                     child: Column(
                                       children: [
                                         Text(
-                                          "DESERT ADVENTURE ",
+                                          "DUBAI DESERT",
                                           style: TextStyle(
-                                              fontSize: 20, letterSpacing: 2),
+                                            fontSize: 20,
+                                            letterSpacing: 2,
+                                          ),
                                         ),
                                         Padding(
                                           padding:
                                               const EdgeInsets.only(left: 130),
                                           child: Text(
-                                            "TOURS",
+                                            "SAFARI",
                                             style: TextStyle(
-                                                fontSize: 20, letterSpacing: 2),
+                                              fontSize: 20,
+                                              letterSpacing: 2,
+                                            ),
                                           ),
                                         ),
                                       ],
                                     ),
-                                  )
+                                  ),
                                 ],
                               ),
                             ],
@@ -1257,9 +1245,7 @@ class _EveningDetailState extends State<EveningDetail> {
                                     launchUrl(whatsapp);
                                   },
                                 ),
-                                SizedBox(
-                                  height: 10,
-                                ),
+                                SizedBox(height: 10),
                               ],
                             ),
                           ),
@@ -1269,21 +1255,22 @@ class _EveningDetailState extends State<EveningDetail> {
                               height: 50,
                               width: 130,
                               decoration: BoxDecoration(
-                                  color: Color.fromARGB(255, 253, 112, 18)),
+                                color: Color.fromARGB(255, 253, 112, 18),
+                              ),
                               child: TextButton(
-                                  onPressed: () {
-                                    Navigator.pushReplacementNamed(
-                                        context, BookNow.id);
-                                  },
-                                  child: Text(
-                                    "Book Now",
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      color: Colors.white,
-                                    ),
-                                  )),
+                                onPressed: () {
+                                  Get.to(() => BookNow());
+                                },
+                                child: Text(
+                                  "Book Now",
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ),

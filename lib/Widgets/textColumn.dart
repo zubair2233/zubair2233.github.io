@@ -1,5 +1,6 @@
 import 'package:dubai_desert_safari/Pages/BookNow.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import 'ResponsiveWidget.dart';
 
@@ -41,7 +42,7 @@ class _TextColumnState extends State<TextColumn> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(40, 0, 40, 0),
                 child: Text(
-                  " Spending an evening in the desert is the most sought-after outing due to its remarkable and extraordinary characteristics. Visiting the desert is the best way to relax and explore a different environment that is tranquil and tranquilizing. From 4 PM to 8 PM, you should make sure to take pleasure of every single minute. During this time, there are a variety of enjoyable, adventurous, and thrilling activities on offer, such as 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and many more. Moreover, you can also witness the magnificent sunset in the desert, which is a priceless instant to share with your loved ones. Capture these moments to keep this unparalleled desert experience forever in your memories. Apart from this, the popular photo with eagle is ideal for a perfect Instagram or Facebook cover.",
+                  "Spending an evening in the desert is the most sought-after outing due to its remarkable and extraordinary characteristics. Visiting the desert is the best way to relax and explore a different environment that is tranquil and tranquilizing. From 4 PM to 8 PM, you should make sure to take pleasure of every single minute. During this time, there are a variety of enjoyable, adventurous, and thrilling activities on offer, such as 4×4 land cruiser SUVs, quad bike riding, sandboarding, camel rides, and many more. Moreover, you can also witness the magnificent sunset in the desert, which is a priceless instant to share with your loved ones. Capture these moments to keep this unparalleled desert experience forever in your memories. Apart from this, the popular photo with eagle is ideal for a perfect Instagram or Facebook cover.",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       height: 2, color: Color.fromARGB(255, 148, 141, 141)),
@@ -153,7 +154,7 @@ class _TextColumnState extends State<TextColumn> {
                 height: 40,
               ),
               Text(
-                "DESERT ADVENTURE TOURS",
+                "DUBAI DESERT SAFARI",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 25,
@@ -176,7 +177,7 @@ class _TextColumnState extends State<TextColumn> {
                   Column(
                     children: [
                       Text(
-                        "DUBAI DESERT ",
+                        "DUBAI DESERT",
                         style: TextStyle(fontSize: 22),
                       ),
                       Padding(
@@ -199,7 +200,7 @@ class _TextColumnState extends State<TextColumn> {
                       BoxDecoration(color: Color.fromARGB(255, 253, 112, 18)),
                   child: TextButton(
                       onPressed: () {
-                        Navigator.pushReplacementNamed(context, BookNow.id);
+                        Get.to(() => BookNow());
                       },
                       child: Text(
                         "Book Now",
@@ -386,8 +387,7 @@ class _TextColumnState extends State<TextColumn> {
                                 color: Color.fromARGB(255, 253, 112, 18)),
                             child: TextButton(
                                 onPressed: () {
-                                  Navigator.pushReplacementNamed(
-                                      context, BookNow.id);
+                                  Get.to(() => BookNow());
                                 },
                                 child: Text(
                                   "Book Now",
@@ -527,79 +527,72 @@ class _TextColumnState extends State<TextColumn> {
                   SizedBox(
                     height: 40,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 100, right: 100),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        Text(
-                          "DUBAI DESERT SAFARI",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 24,
-                            letterSpacing: 3,
-                            fontWeight: FontWeight.bold,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        "DUBAI DESERT SAFARI",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 24,
+                          letterSpacing: 3,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.lock_clock_rounded,
+                            size: 40,
                           ),
-                        ),
-                        SizedBox(
-                          width: 20,
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(
-                              Icons.lock_clock_rounded,
-                              size: 40,
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 18),
-                              child: Column(
-                                children: [
-                                  Text(
-                                    "DUBAI DESERT ",
+                          Padding(
+                            padding: const EdgeInsets.only(top: 18),
+                            child: Column(
+                              children: [
+                                Text(
+                                  "DUBAI DESERT ",
+                                  style:
+                                      TextStyle(fontSize: 20, letterSpacing: 2),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(left: 130),
+                                  child: Text(
+                                    "SAFARI",
                                     style: TextStyle(
                                         fontSize: 20, letterSpacing: 2),
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(left: 130),
-                                    child: Text(
-                                      "SAFARI",
-                                      style: TextStyle(
-                                          fontSize: 20, letterSpacing: 2),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 100,
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(top: 30),
-                          child: Container(
-                            height: 50,
-                            width: 130,
-                            decoration: BoxDecoration(
-                                color: Color.fromARGB(255, 253, 112, 18)),
-                            child: TextButton(
-                                onPressed: () {
-                                  Navigator.pushReplacementNamed(
-                                      context, BookNow.id);
-                                },
-                                child: Text(
-                                  "Book Now",
-                                  style: TextStyle(
-                                    fontSize: 20,
-                                    color: Colors.white,
-                                  ),
-                                )),
-                          ),
-                        )
-                      ],
-                    ),
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ],
                   ),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 30, right: 30),
+                    child: Container(
+                      height: 50,
+                      width: 130,
+                      decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 253, 112, 18)),
+                      child: TextButton(
+                          onPressed: () {
+                            Get.to(() => BookNow());
+                          },
+                          child: Text(
+                            "Book Now",
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.white,
+                            ),
+                          )),
+                    ),
+                  )
                 ],
               );
   }

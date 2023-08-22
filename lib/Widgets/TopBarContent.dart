@@ -1,8 +1,7 @@
-// import 'package:dubai_desert_safari/Pages/Contact.dart';
-import 'package:dubai_desert_safari/Pages/EveningDesertSafari+Atv.dart';
 import 'package:dubai_desert_safari/Pages/EveningDesertSafari.dart';
 import 'package:dubai_desert_safari/Screens/HomePage.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class TopBarContent extends StatefulWidget {
   final double opacity;
@@ -51,7 +50,7 @@ class _TopBarContentState extends State<TopBarContent> {
                       });
                     },
                     onTap: () {
-                      Navigator.pushNamed(context, HomePage.id);
+                      Get.to(() => HomePage());
                     },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
@@ -61,9 +60,9 @@ class _TopBarContentState extends State<TopBarContent> {
                           style: TextStyle(
                             color: _isHovering[0]
                                 ? Color.fromARGB(255, 29, 52, 70)
-                                : Colors.black,
+                                : Color.fromARGB(255, 185, 175, 81),
                             fontWeight: FontWeight.bold,
-                            fontSize: 12,
+                            fontSize: 14,
                           ),
                         ),
                         SizedBox(
@@ -92,7 +91,7 @@ class _TopBarContentState extends State<TopBarContent> {
                       });
                     },
                     onTap: () {
-                      Navigator.pushNamed(context, EveningDesertSafari.id);
+                      Get.to(() => EveningDesertSafari());
                     },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
@@ -102,9 +101,9 @@ class _TopBarContentState extends State<TopBarContent> {
                           style: TextStyle(
                             color: _isHovering[1]
                                 ? Color.fromARGB(255, 29, 52, 70)
-                                : Colors.black,
+                                : Color.fromARGB(255, 185, 175, 81),
                             fontWeight: FontWeight.bold,
-                            fontSize: 12,
+                            fontSize: 14,
                           ),
                         ),
                         SizedBox(
@@ -127,48 +126,6 @@ class _TopBarContentState extends State<TopBarContent> {
                 ),
                 SizedBox(
                   width: 50,
-                ),
-                Expanded(
-                  child: InkWell(
-                    onHover: (value) {
-                      setState(() {
-                        value ? _isHovering[2] = true : _isHovering[2] = false;
-                      });
-                    },
-                    onTap: () {
-                      Navigator.pushNamed(context, EveningDesertAtv.id);
-                    },
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Text(
-                          "EVENING DESERT SAFARI + ATV",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: _isHovering[2]
-                                ? Color.fromARGB(255, 29, 52, 70)
-                                : Colors.black,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 11,
-                          ),
-                        ),
-                        SizedBox(
-                          width: 5,
-                        ),
-                        Visibility(
-                          maintainAnimation: true,
-                          maintainState: true,
-                          maintainSize: true,
-                          visible: _isHovering[2],
-                          child: Container(
-                            height: 2,
-                            width: 20,
-                            color: Colors.blue,
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
                 ),
                 Expanded(
                   child: InkWell(
