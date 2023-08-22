@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Dubai Safari Desert',
+      title: 'Dubai Desert Safari',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
